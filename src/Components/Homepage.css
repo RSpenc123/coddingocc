@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+
+.first-image{
+    height: 500px;
+    width: 100%;
+    background-color:#ffffff;
+    ;
+    padding-bottom: 40px;
+}
+
+.header{
+    height: 100px;
+    background: linear-gradient( #4f4f4f, #ffffff) ;
+
+    padding-top: 0px;
+    margin: 0px;
+}
+.it{
+    color: white;
+    background-color: #bf1e04;
+    height: 30px;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   margin-right: 800px;
+   font-family: Rajdhani;
+   
+}
+.info{
+    height: 460px;
+    width: 90%;
+    /* background-color: grey; */
+    /* justify-content: left; */
+    background-color: #ffffff;
+  padding-left: 74px;
+
+}
+
+.contact{
+    height: 600px;
+    width: 50%;
+    background-color: #4f4f4f;
+
+    /* border-radius: 20px; */
+    border: grey;
+    justify-content: center;
+    color: #393939;
+    align-items: center;
+    border-style: solid;
+    border-color: #bf1e04;
+}
+
+.classes{
+    /* height: 300px; */
+    width: 100%;
+    color: #393939;
+    background-color: #f3f3f3;
+    padding-bottom: 200px
+    
+   
+    ;
+    
+}
+
+.course-image{
+    height:100%;
+    width:200px;
+    color: #393939
+    
+
+}
+
+.courses{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    background-color: #ffffff;
+    /* height: 175px; */
+    color: #393939;
+    border-color: black;
+    border-style: solid;
+ 
+}
+
+.title{
+    width: 100%;
+    height: 0px;
+    color: #393939;
+    border: black;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 10px;
+    font-size: 20px;
+    /* display: flex;
+    justify-content: right; */
+}
+
+.course-box{
+    justify-content: center;
+    display: flex;
+    color: #393939;
+    padding-top: 20px;
+    
+   
+}
+
+.content-box{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    color: #393939
+}
+
+
+
+.info-content{
+    font-size: 20px;
+    color: #393939
+}
+
+
+.contact-title{
+    
+   font-size: 0px;
+   color: #393939
+   
+}
+
+.contact-content{
+    font-size: 20px;
+    color: #393939;
+    padding-left: 74px;
+    width: 90%;
+
+}
+
+.course-content{
+    display: flex;
+}
+
+.ages{
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.course{
+    padding-top: 10px;
+}
+
+.courses{
+    justify-content: left;
+    align-items: left;
+}
+
+.courses-title{
+    font-size: 60px;
+    margin: 20px;
+    border-color: red;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    width: 210px;
+    margin-left: 00px;
+}
+
+.box-1{
+    height: 250px;
+    width: 600px;
+    background-color: #f3f3f3;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* border-color: #393d40; */
+    /* border-style: outset; */
+    /* border-radius: 20px; */
+}
+
+.box-0{
+    display: flex;
+    /* padding-left: 20px; */
+    /* margin-left: 150px; */
+    margin-top: 80px;
+    
+}
+
+.footer{
+    height: 200px;
+    background-color:#bf1e04 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.footer-content{
+    display: flex;
+
+}
+.social{
+    width:60px;
+    height:60px;
+}
+.social-box{
+margin-left: 600px;
+}
+.red-button{
+    height:50px;
+    width: 120px;
+    background-color:#bf1e04;
+    border-style: none;
+    border-radius: 10px;;
+    color: white;
+    font-size: 15px;
+}
+
+
+.info-title1{
+    height: 100px;
+   font-size: 40px;
+   font-style: Lexend,serif;
+   color: #393939;
+   margin-top: 30px;
+   border-color: #bf1e04;
+   border-style: solid;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-left-width: 0px;
+}
+.code-type-box{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* margin-top: 500px; */
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.code-type{
+    height: 175px;
+    width: 175px;
+    margin-top: 20px;
+}
+.contact-box{
+    justify-content: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-top: 20px; */
+    /* background-color: blueviolet; */
+}
+
+.code-box{
+    padding-top: 65px;;
+}
+
+.code-filler{
+    height:200px;
+    width: 200px;
+    background-color: #4f4f4f;
+    border-color: #bf1e04;
+    border-style: solid;
+    border-width: 10px;
+    color:white;
+    margin-left: 160px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    border-right: none;
+  
+
+}
+.languages{
+    font-size: 35px;
+    border-style: solid;
+    border-color: #bf1e04;
+   font-family: Rajdhani;
+    
+}
+
+.code-box{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tech-stack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+   
+}
+
+.tech{
+    border-color: red;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+   
+}
+
+.header-text{
+    /* background-color: orange; */
+    display: flex;
+    /* justify-content: center; */
+align-items: center;
+/* justify-content: center; */
+/* margin-top: 20px; */
+/* padding-right: 200px; */
+font-family: Rajdhani;
+}
+
+.cod{
+    /* height: 30px;
+    width: 60px; */
+    font-size: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: mont-reg, ariel; */
+}
+
+.header-but{
+    background-color: transparent;
+    border-style: hidden;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}

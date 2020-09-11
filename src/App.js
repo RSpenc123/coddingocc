@@ -1,18 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Route from "./route"
+import {HashRouter} from 'react-router-dom'
+
 
 function App() {
   return (
+    <HashRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          potato
-        </p>
-        
-      </header>
+    {Route}
+
     </div>
+    </HashRouter>
   );
 }
 
