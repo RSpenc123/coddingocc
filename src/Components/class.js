@@ -75,11 +75,11 @@ render(){
                    <h3>Available courses</h3>
                    <b>Course 1</b>
                    <p>Sep 28- Oct 9</p>
-                   <p>Monday - Friday from 4-5</p>
+                   <p>Monday - Friday from 4 - 5</p>
                 
                    <b>Course 2</b>
-                   <p>oct 1- Oct 8</p>
-                   <p>Saturday - Sunday from 1-3:30</p>
+                   <p>Oct 3- Oct 11</p>
+                   <p>Saturday - Sunday from 1 - 3:30</p>
                 
                    </div>
                    <div className="course-sign-up">
