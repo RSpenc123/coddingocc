@@ -12,7 +12,7 @@ render(){
     return(
         <div className="contact-box">
             <div className="header"><div className="header-text"><b className="cod">CODING </b> 
-            <div className="it"><b className="it">OC</b></div>
+            <div className="it"><b className="oc">OC</b></div>
             <Link to="/"> 
             <button className="header-but">Home</button>
             </Link>
@@ -25,10 +25,10 @@ render(){
             </div>
           
 
-            <div > <img className="first-image" src="https://cdn-e-careers.scdn5.secure.raxcdn.com/images/kids-coding-introduction-to-html-css-javascript.jpg"/> </div>
-            
-            <div className="info"><b className="info-title1">Info</b>
-          <div className="class-info-1"> 
+            <div > <img className="first-image1" src="https://cdn-e-careers.scdn5.secure.raxcdn.com/images/kids-coding-introduction-to-html-css-javascript.jpg"/> </div>
+            <div className="info1"><b className="info-title2">Info</b>
+            <div className="class-info-1"> 
+          
           <p className="idk"><b>Pricing: </b>$150 per student</p>
            <p className="idk"> <b>Hours:</b> Monday-Friday from 4-5 pm</p>
            <p className="idk"><b>Course Length: </b>2 weeks</p>
@@ -44,8 +44,9 @@ render(){
             <div className="class-info-1">
                <img className="class-pic" src="https://codewizardshq.com/wp-content/uploads/2016/08/kids_coding_website_tie_dye_girl.jpg"/>
                <div className="class-text">
-                   <b>Junior Web Design</b>
-                   <p>Students will learn the basics of HTML and CSS, giving them the building blocks to 
+                   <div className= "classheader"></div>
+                   <b className= "classheader1">Junior Web Design</b>
+                   <p className="text-class">Students will learn the basics of HTML and CSS, giving them the building blocks to 
                        learn about the advanced uses of web design.</p></div>
            </div>
             
@@ -55,12 +56,13 @@ render(){
               <div className="tech-stack"> </div>
            <div className="class-info-1">
                <div className="class-text">
-                   <b>Students will learn</b>
-                   <p>The Basics of html and css</p>
-                   <p>General web design tips</p>
-                   <p>How to create their own web aplication</p>
+               <div className= "classheader"></div>
+                   <b className= "classheader1">Students will learn</b>
+                   <p className="text-class">-The Basics of html and css</p>
+                   <p>-General web design tips</p>
+                   <p>-How to create their own web aplication</p>
                   
-                   <p>The ability to clone most websites</p></div>
+                   <p>-The ability to clone most websites</p></div>
                <img className="class-pic" src="https://www.intego.com/mac-security-blog/wp-content/uploads/2017/06/kids-coding-safer-online.jpg"/>
 
            </div>
@@ -72,12 +74,12 @@ render(){
             <div className="class-info-1">
                <img className="class-pic" src="https://factsmgt.com/wp-content/uploads/KidsCoding.jpg"/>
                <div className="class-text">
-                   <h3>Available courses</h3>
-                   <b>Course 1</b>
+                   <h3 className= "classheader1">Available courses</h3>
+                   <b className= "classheader2">Course 1</b>
                    <p>Sep 28- Oct 9</p>
                    <p>Monday - Friday from 4 - 5</p>
                 
-                   <b>Course 2</b>
+                   <b className= "classheader2">Course 2</b>
                    <p>Oct 3- Oct 11</p>
                    <p>Saturday - Sunday from 1 - 3:30</p>
                 

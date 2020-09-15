@@ -19,12 +19,13 @@
     
 }
 
-.first-image{
+.first-image1{
     height: 500px;
     width: 100%;
     background-color:#ffffff;
     ;
     padding-bottom: 40px;
+    margin-top: 40p;
 }
 
 .class-pic{
@@ -36,10 +37,47 @@
     font-size: 20px;
     
 }
+.info-1{
+     height: 460px;
+    width: 1200px;
+    /* background-color: grey; */
+    /* justify-content: left; */
+    background-color: #ffffff;
+  padding-left: 74px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
 
 .class-text{
     width: 50%;
     height:400px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+.classheader{
+    padding-top: 50px;
+    /* margin-top: 50px; */
+   
+  
+    
+  
+ 
+    
+}
+.classheader1{
+    font-size: 30px;
+    
+}
+.classheader2{
+    font-size: 20px;
+    
+}
+.text-class{
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 
@@ -57,30 +95,19 @@
     margin-left: 450px;
     margin-top: 50px
 }
-.it{
-    /* color: white;
-    background-color: #bf1e04;
-    height: 30px;
-    width: 60px;
-    font-size: 30px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center; */
-    margin-top: 30px;
-   /* margin-right: 600px; */
-}
-.info{
+
+.info1{
     height: 460px;
     width: 90%;
-    /* background-color: grey; */
-    /* justify-content: left; */
-    background-color: #ffffff;
+    background-color: grey;
+   justify-content: left;
+   background-color: #ffffff;
   padding-left: 74px;
 
 }
 
 .contacts{
-    height: 600px;
+    height: 400px;
     width: 50%;
     background-color: #4f4f4f;
 
@@ -232,7 +259,7 @@
 }
 
 
-.info-title1{
+.info-title2{
     height: 100px;
    font-size: 40px;
    font-style: ariel;
@@ -252,6 +279,9 @@
     /* margin-top: 500px; */
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    /* margin-left: 200px; */
 }
 
 .code-type{
@@ -269,24 +299,26 @@
 }
 
 .code-box{
-    padding-top: 65px;;
+    /* padding-top: 65px;; */
+    display: flex;
+    flex: wrap;
 }
 
 .code-filler{
     height:200px;
-    width: 200px;
+    /* width: 200px;
     background-color: #4f4f4f;
     border-color: #bf1e04;
     border-style: solid;
     border-width: 10px;
 
-    margin-left: 160px;
-    margin-top: 200px;
-    display: flex;
+    margin-left: 160px; */
+    /* margin-top: 200px; */
+    /* display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    border-right: none;
+    border-right: none; */
   
 
 }

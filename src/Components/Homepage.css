@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
 
 .first-image{
-    height: 500px;
+    height: 650px;
     width: 100%;
     background-color:#ffffff;
     ;
@@ -16,12 +16,13 @@
     padding-top: 0px;
     margin: 0px;
 }
-.it{
+.oc{
     color: white;
     background-color: #bf1e04;
     height: 30px;
     width: 40px;
     font-size: 30px;
+    display: flex;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
@@ -32,26 +33,31 @@
 }
 .info{
     height: 460px;
-    width: 90%;
+    width: 1200px;
     /* background-color: grey; */
     /* justify-content: left; */
     background-color: #ffffff;
   padding-left: 74px;
+  margin: 0px;
+  padding-bottom: 0px;
+  
 
 }
 
 .contact{
     height: 600px;
-    width: 50%;
-    background-color: #4f4f4f;
+    width: 80%;
+    background-color:  #ebebeb;
 
     /* border-radius: 20px; */
     border: grey;
     justify-content: center;
     color: #393939;
     align-items: center;
-    border-style: solid;
-    border-color: #bf1e04;
+    /* border-style: solid;
+    border-color: #bf1e04; */
+    margin-left: 130px;
+    margin-bottom: 50px;
 }
 
 .classes{
@@ -122,7 +128,11 @@
     font-size: 20px;
     color: #393939
 }
-
+.info-content1{
+    font-size: 20px;
+    color: #393939;
+    padding: 10px
+}
 
 .contact-title{
     
@@ -137,6 +147,14 @@
     padding-left: 74px;
     width: 90%;
 
+}
+.info-title{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .course-content{
@@ -175,6 +193,29 @@
     background-color: #f3f3f3;
     margin-left: 50px;
     margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding-top: 0px;
+    margin-top: 0px;
+    /* border-color: #393d40; */
+    /* border-style: outset; */
+    /* border-radius: 20px; */
+}
+
+.box-2{
+    height: 250px;
+    width: 600px;
+    background-color: #f3f3f3;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    margin-top: 0px;
     /* border-color: #393d40; */
     /* border-style: outset; */
     /* border-radius: 20px; */
@@ -185,6 +226,7 @@
     /* padding-left: 20px; */
     /* margin-left: 150px; */
     margin-top: 80px;
+    width: 100%;
     
 }
 
@@ -195,6 +237,7 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    margin-top: 200px;;
 }
 .footer-content{
     display: flex;
@@ -215,21 +258,29 @@ margin-left: 600px;
     border-radius: 10px;;
     color: white;
     font-size: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    
 }
 
 
 .info-title1{
-    height: 100px;
-   font-size: 40px;
+    height: 80px;
+   font-size: 60px;
    font-style: Lexend,serif;
-   color: #393939;
-   margin-top: 30px;
+   color: black;
+   margin-top: 0px;
    border-color: #bf1e04;
    border-style: solid;
    border-top-width: 0px;
    border-right-width: 0px;
    border-left-width: 0px;
+   float: left;
+   margin-bottom: 60px;
+   margin-left: 50px;
+   margin-left: 150px;
 }
+
 .code-type-box{
     display: flex;
     /* justify-content: center; */
@@ -238,6 +289,7 @@ margin-left: 600px;
     /* margin-top: 500px; */
     justify-content: center;
     align-items: center;
+    margin-top: 50px
     
     
     
@@ -248,8 +300,15 @@ margin-left: 600px;
     width: 175px;
     margin-top: 20px;
 }
+.code-type1{
+    height: 205px;
+    width: 205px;
+    margin-top: 20px;
+}
 .contact-box{
+    
     justify-content: center;
+    /* display: flex; */
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -258,24 +317,27 @@ margin-left: 600px;
 }
 
 .code-box{
-    padding-top: 65px;;
+    /* padding-top: 65px;; */
+}
+.code-box{
+    
 }
 
 .code-filler{
     height:200px;
-    width: 200px;
+    width: 600px;
     background-color: #4f4f4f;
     border-color: #bf1e04;
     border-style: solid;
     border-width: 10px;
     color:white;
-    margin-left: 160px;
-    margin-top: 200px;
+    margin-left: 400px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 11px;
-    border-right: none;
+    
   
 
 }
@@ -291,6 +353,7 @@ margin-left: 600px;
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 70px;
 }
 
 .tech-stack{

@@ -11,7 +11,7 @@ render(){
     return(
         <div className="contact-box">
             <div className="header"><div className="header-text"><b className="cod">CODING </b> 
-            <div className="it"><b className="it">OC</b></div>
+            <div className="it"><b className="oc">OC</b></div>
             <Link to="/"> 
             <button className="header-but">Home</button>
             </Link>
@@ -26,18 +26,18 @@ render(){
 
             <div > <img className="first-image" src="https://cdn.mos.cms.futurecdn.net/2yfHts3tFM2xkmPHvzvxvZ.jpg"/> </div>
             
-            <div className="info"><b className="info-title1">LIVE</b><b className="info-title"> ONLINE CODING PROGRAMS FOR AGES 11-15</b>
+            <div className="info"> <b className="info-title1">LIVE</b><p className="info-title"> Online coding programs for ages 11-15</p>
            <div className="box-0">
             <div className="box-1">
             <b className="contact-title">Is your child interested in coding?</b>
                 
                 <p className="info-content">
             Register for a class and get additional information about our courses</p>
-            <Link to="/Class1"> <button className="red-button">LEARN MORE</button></Link></div>
-            <div className="box-1">
-            <p className="info-content">
-            Coding OC strives to inspire children to learn the fundamentals of coding which gives them skills that they can build on in order to be relevant in todays highly competitive technological world
-            . Each child will be part of a small, interactive class which allows each child to benefit from individual instruction from the owner and founder of Coding OC, Reid Spencer.
+            <div><Link to="/Class1"> <button className="red-button">LEARN MORE</button></Link></div></div>
+            <div className="box-2">
+            <p className="info-content1">
+            Coding OC strives to inspire children to learn the fundamentals of coding which gives them skills that they can build on in order to be relevant in today's highly competitive technological world.
+             Our program consists of small and interactive classes which allows each child to benefit from individual instruction from the owner and founder of Coding OC, Reid Spencer.
                 </p> </div>
                 </div>
                 </div>
@@ -46,9 +46,9 @@ render(){
               <div className="tech-stack"> <b className="tech">Tech </b> <p>stack</p></div>
            
            
-           <div className="code-box">
-               <div className="code-filler"><p className="languages">LANGUAGES</p></div>
-
+          
+               {/* <div className="code-filler"><p className="languages">LANGUAGES</p></div> */}
+               <div className="code-box">
 
                 <div className="contact">
             <div> 
@@ -58,6 +58,8 @@ render(){
             <div className="code-box"> <img  className="code-type" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"/></div>
             <div className="code-box"> <img  className="code-type" src="https://cdn.auth0.com/blog/react-js/react.png"/></div>
             <div className="code-box"> <img  className="code-type" src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png"/></div>
+            <div className="code-box"> <img  className="code-type" src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png"/></div>
+            <div className="code-box"> <img  className="code-type" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"/></div>
   
            
             </div>
