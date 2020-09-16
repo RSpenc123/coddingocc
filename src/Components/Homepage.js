@@ -10,9 +10,12 @@ class Homepage extends Component{
 render(){
     return(
         <div className="contact-box">
+          
+            <div className="big">
             <div className="header"><div className="header-text"><b className="cod">CODING </b> 
             <div className="it"><b className="oc">OC</b></div>
-            <Link to="/"> 
+            
+                <Link to="/"> 
             <button className="header-but">Home</button>
             </Link>
 
@@ -20,6 +23,8 @@ render(){
             <Link to="/Class1">
             <button className="header-but">Courses</button>
             </Link>
+            
+
             </div>
             </div>
           
@@ -41,6 +46,26 @@ render(){
                 </p> </div>
                 </div>
                 </div>
+
+<div className="yeah">
+                <b className="info-title1-small">LIVE CLASSES</b></div>
+                
+                <div className="box-3">
+            
+                
+                <p className="info-content">
+            Register for a class and get additional information about our courses</p>
+            <div><Link to="/Class1"> <button className="red-button">LEARN MORE</button></Link></div></div>
+
+
+            <div className="box-3">
+            <p className="info-content1">
+            Coding OC strives to inspire children to learn the fundamentals of coding which gives them skills that they can build on in order to be relevant in today's highly competitive technological world.
+             Our program consists of small and interactive classes which allows each child to benefit from individual instruction from the owner and founder of Coding OC, Reid Spencer.
+                </p> </div>
+                
+
+
            
            <div className="contact-box">
               <div className="tech-stack"> <b className="tech">Tech </b> <p>stack</p></div>
@@ -66,6 +91,16 @@ render(){
                 </div></div>
                 </div>
                 </div>
+
+
+
+
+
+                
+
+
+
+           
 
             <div className="classes"> <b className="courses-title">Courses</b>
             {/* <p>Currently we are only providing the basic web development course, however we plan to add more courses in the future.</p>  */}
@@ -115,7 +150,7 @@ render(){
                     </footer> */}
                     <footer className="footer">Contact us at- RSpenc12345@yahoo.com</footer>
 
-
+                    </div>
         </div>
         
     )
