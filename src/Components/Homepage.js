@@ -11,7 +11,7 @@ render(){
     return(
         <div className="contact-box">
           
-            <div className="big">
+            <div >
             <div className="header"><div className="header-text"><b className="cod">CODING </b> 
             <div className="it"><b className="oc">OC</b></div>
             
@@ -19,9 +19,8 @@ render(){
             <button className="header-but">Home</button>
             </Link>
 
-            {/* <button className="header-but">Info</button> */}
             <Link to="/Class1">
-            <button className="header-but">Courses</button>
+            <button className="header-but2">Courses</button>
             </Link>
             
 
@@ -29,7 +28,8 @@ render(){
             </div>
           
 
-            <div > <img className="first-image" src="https://cdn.mos.cms.futurecdn.net/2yfHts3tFM2xkmPHvzvxvZ.jpg"/> </div>
+            <div > <img className="first-image" src="https://cdn.mos.cms.futurecdn.net/2yfHts3tFM2xkmPHvzvxvZ.jpg"/>
+            <img className="second-image" src="https://www.bostontechmom.com/wp-content/uploads/2019/03/Coding-Class-for-Kids.jpg"/> </div>
             
             <div className="info"> <b className="info-title1">LIVE</b><p className="info-title"> Online coding programs for ages 11-15</p>
            <div className="box-0">
@@ -47,7 +47,7 @@ render(){
                 </div>
                 </div>
 
-<div className="yeah">
+
                 <b className="info-title1-small">LIVE CLASSES</b></div>
                 
                 <div className="box-3">
@@ -62,7 +62,7 @@ render(){
             <p className="info-content1">
             Coding OC strives to inspire children to learn the fundamentals of coding which gives them skills that they can build on in order to be relevant in today's highly competitive technological world.
              Our program consists of small and interactive classes which allows each child to benefit from individual instruction from the owner and founder of Coding OC, Reid Spencer.
-                </p> </div>
+                </p>  </div>
                 
 
 
@@ -120,6 +120,7 @@ render(){
                 </div>
                 </div>
 
+
             
 
                 
@@ -137,6 +138,27 @@ render(){
                     <p>Saturday-Sunday 1 am - 3:30 am</p>
                     <p> E-mail RSPenc12345@yahoo.com if interested or if you have any questions</p> */}
                     </div>
+                   
+                   
+                   
+                    <div className="classes2"> <b className="courses-title">Courses</b>
+            {/* <p>Currently we are only providing the basic web development course, however we plan to add more courses in the future.</p>  */}
+            
+            <div className="course-box2">
+            <div className="courses">
+            <img className="course-image"src="https://blog.whitehatjr.com/wp-content/uploads/2019/10/Advantages-of-coding-at-a-small-age-1140x694.jpg"/>
+            
+            <div><h4 className="title">  Junior Web Design</h4>
+            <p className="ages2"> <b>Ages: </b>11-15</p>
+            <div className="coursess"><p className="course"><b>Course:</b>web design</p> 
+            <p className="level"> <b>Level:</b> Beginner to Intermediate</p>
+            <p><b>Session: </b> Weekends and Weekdays</p>
+            <Link to="/Class1"><button>Info</button> </Link>
+           
+           </div></div>
+                </div>
+                </div>
+                </div>
 
 
 
@@ -150,7 +172,7 @@ render(){
                     </footer> */}
                     <footer className="footer">Contact us at- RSpenc12345@yahoo.com</footer>
 
-                    </div>
+                   
         </div>
         
     )

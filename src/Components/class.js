@@ -17,7 +17,7 @@ render(){
             <button className="header-but">Home</button>
             </Link>
 
-            {/* <button className="header-but">Info</button> */}
+           
             <Link to="/Class1">
             <button className="header-but">Courses</button>
             </Link>
@@ -45,7 +45,7 @@ render(){
                <img className="class-pic" src="https://codewizardshq.com/wp-content/uploads/2016/08/kids_coding_website_tie_dye_girl.jpg"/>
                <div className="class-text">
                    <div className= "classheader"></div>
-                   <b className= "classheader1">Junior Web Design</b>
+                   <h1 className= "classheader1">Junior Web Design</h1>
                    <p className="text-class">Students will learn the basics of HTML and CSS, giving them the building blocks to 
                        learn about the advanced uses of web design.</p></div>
            </div>
@@ -57,31 +57,31 @@ render(){
            <div className="class-info-1">
                <div className="class-text">
                <div className= "classheader"></div>
-                   <b className= "classheader1">Students will learn</b>
+                   <h1 className= "classheader1">Students will learn</h1>
                    <p className="text-class">-The Basics of html and css</p>
-                   <p>-General web design tips</p>
-                   <p>-How to create their own web aplication</p>
+                   <p className="text-class2">-General web design tips</p>
+                   <p className="text-class2">-How to create their own web aplication</p>
                   
-                   <p>-The ability to clone most websites</p></div>
-               <img className="class-pic" src="https://www.intego.com/mac-security-blog/wp-content/uploads/2017/06/kids-coding-safer-online.jpg"/>
+                   <p className="text-class2">-The ability to clone most websites</p></div>
+               <img className="class-pic2" src="https://www.intego.com/mac-security-blog/wp-content/uploads/2017/06/kids-coding-safer-online.jpg"/>
 
            </div>
 
            
-           <div className="code-box">
+           <div className="code-box2">
 
            <div className="classes1"> 
             <div className="class-info-1">
                <img className="class-pic" src="https://factsmgt.com/wp-content/uploads/KidsCoding.jpg"/>
                <div className="class-text">
                    <h3 className= "classheader1">Available courses</h3>
-                   <b className= "classheader2">Course 1</b>
-                   <p>Sep 28- Oct 9</p>
-                   <p>Monday - Friday from 4 - 5</p>
+                   <p className= "classheader2">Course 1</p>
+                   <p className="text-class2">Sep 28- Oct 9</p>
+                   <p className="text-class2">Monday - Friday from 4 - 5</p>
                 
-                   <b className= "classheader2">Course 2</b>
-                   <p>Oct 3- Oct 11</p>
-                   <p>Saturday - Sunday from 1 - 3:30</p>
+                   <p className= "classheader2">Course 2</p>
+                   <p className="text-class2">Oct 3- Oct 11</p>
+                   <p className="text-class2">Saturday - Sunday from 1 - 3:30</p>
                 
                    </div>
                    <div className="course-sign-up">
