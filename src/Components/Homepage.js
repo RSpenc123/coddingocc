@@ -48,7 +48,7 @@ render(){
                 </div>
 
 
-                <b className="info-title1-small">LIVE CLASSES</b></div>
+                <b className="info-title1-small">LIVE ONLINE CLASSES</b></div>
                 
                 <div className="box-3">
             
@@ -146,7 +146,7 @@ render(){
             
             <div className="course-box2">
             <div className="courses">
-            <img className="course-image"src="https://blog.whitehatjr.com/wp-content/uploads/2019/10/Advantages-of-coding-at-a-small-age-1140x694.jpg"/>
+            <img className="course-image"src="https://i.imgur.com/JYe8IYE.jpg"/>
             
             <div><h4 className="title">  Junior Web Design</h4>
             <p className="ages2"> <b>Ages: </b>11-15</p>

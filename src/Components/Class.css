@@ -32,6 +32,10 @@
     height:400px;
     width:50%;
 }
+.class-pic3{
+    height:400px;
+    width:50%;
+}
 .class-pic2{
     height:400px;
     width:50%;
@@ -395,7 +399,7 @@ align-items: center;
 
 @media(max-width: 499px){
 .first-image1{
-    height: 300px;
+    height: 200px;
 }
 .it{
     
@@ -420,7 +424,11 @@ align-items: center;
    
 }
 .class-pic{
-    height:300px;
+    height:240px;
+    width:100%;
+}
+.class-pic3{
+    height:275px;
     width:100%;
 }
 .text-class{

@@ -72,7 +72,7 @@ render(){
 
            <div className="classes1"> 
             <div className="class-info-1">
-               <img className="class-pic" src="https://factsmgt.com/wp-content/uploads/KidsCoding.jpg"/>
+               <img className="class-pic3" src="https://factsmgt.com/wp-content/uploads/KidsCoding.jpg"/>
                <div className="class-text">
                    <h3 className= "classheader1">Available courses</h3>
                    <p className= "classheader2">Course 1</p>
