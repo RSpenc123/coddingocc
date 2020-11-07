@@ -76,11 +76,11 @@ render(){
                <div className="class-text">
                    <h3 className= "classheader1">Available courses</h3>
                    <p className= "classheader2">Course 1</p>
-                   <p className="text-class2">Oct 26- Nov 6</p>
+                   <p className="text-class2">Nov 9- Nov 20</p>
                    <p className="text-class2">Monday - Friday from 4 - 5</p>
                 
                    <p className= "classheader2">Course 2</p>
-                   <p className="text-class2">Oct 30- Nov 8</p>
+                   <p className="text-class2">Nov 14- Nov 22</p>
                    <p className="text-class2">Saturday - Sunday from 1 - 3:30</p>
                 
                    </div>
