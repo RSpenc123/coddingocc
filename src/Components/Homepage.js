@@ -107,7 +107,7 @@ render(){
             
             <div className="course-box">
             <div className="courses">
-            <img className="course-image"src="https://blog.whitehatjr.com/wp-content/uploads/2019/10/Advantages-of-coding-at-a-small-age-1140x694.jpg"/>
+            <img className="course-image"src="https://teachyourkidscode.com/wp-content/uploads/2018/12/Teach-Your-Kids-Code-Front-Page-Image-1.jpg"/>
             
             <div><h4 className="title">  Junior Web Design</h4>
             <div className="course-content"><p className="ages"> <b>Ages: </b>11-15</p>
