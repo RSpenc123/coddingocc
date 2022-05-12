@@ -1,0 +1,83 @@
+
+
+.transport-header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+}
+
+
+.transport-buttons{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.trans-logo{
+    height: 80px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trans-sign{
+    /* margin-left: 140px; */
+    margin-right: 25px;
+    margin-top: 0px;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    /* padding-bottom: 12px; */
+    padding-left: 40px;
+    padding-right: 25px;
+}
+
+.company{
+    height: 2px;
+        /* padding-top: 15px; */
+        /* padding-left: 25px; */
+        /* padding-right: 25px; */
+        
+    
+}
+
+.arrow{
+    height: 20px;
+    padding-top: 2px;
+}
+
+.profile{
+    height: 25px;
+    margin-top: 1px;
+}
+
+.login{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.trans-log{
+    display: flex;
+}
+
+
+.arrow{
+    height: 15px;
+    margin-top: 2px;
+}
+
+
+.main-section{
+    background-color: black;
+    height: 500px;
+}
