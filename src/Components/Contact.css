@@ -1,0 +1,46 @@
+.contact-header{
+    height: 300px;
+    background-color: orange;
+}
+
+.contact-icons{
+height: 40px;
+margin-right: 20px;
+
+}
+
+.phone{
+    display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+margin-right: 20px;
+margin-top: 50px;
+}
+
+.contact-services{
+    display: flex;
+    /* margin-top: 50px; */
+    justify-content: center;
+    background-color: 
+    #e3e3e3
+    ;
+    height: 150px;
+}
+
+.office-box{
+    width: 500px;
+    border-style: solid;
+    border-radius: 1px, 1px, 1px 1px;
+    height: 300px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+}
+.offices{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    align-items: center;
+    height: 400px;
+}

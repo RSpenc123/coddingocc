@@ -142,7 +142,7 @@ render(){
 
 </div>
 </section>
-<div className='services-header'>
+{/* <div className='services-header'>
 <p className='service-header-text'>OUR SERVICES</p></div>
 <section>
 <div className='item-left'>
@@ -184,31 +184,57 @@ render(){
   </div>
 </div>
 
-</section>
+</section> */}
 
 
+<div className='services-header'>
+<h className='service-header-text'>OUR SERVICES</h></div>
 
-{/* 
 <section className='item-right'>
 <div>
-  <img className = "imageright" src="https://i.imgur.com/h9TQKJu.png"/>
+  <img className = "imageright" src="https://veteransdistribution.com/wp-content/uploads/2020/07/pre-delivery-inspections.jpeg"/>
   <div className='textright'> 
-  <b className='service-bold'>Service</b>
-  <p className='services-content'> service 1
+  <p className='service-bold'>What we do for you</p>
+  
+  <div className='service-box'>
+    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+  <div> <p className='services-content'> Service 1
   </p>
-  <p className='services-content'> service 2
+  <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
+  </div>
+  </div>
+  <div className='service-box'>
+    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+  <div> <p className='services-content'> Service 2
   </p>
-  <p className='services-content'> service 3
+  <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
+  </div>
+  </div>
+  <div className='service-box'>
+    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+  <div> <p className='services-content'> Service 3
   </p>
-  <p className='services-content'> service 4
+  <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
+  </div>
+  </div>
+  <div className='service-box'>
+    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+  <div> <p className='services-content'> Service 4
   </p>
-  <p className='services-content'> service 5
+  <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
+  </div>
+  </div>
+  <div className='service-box'>
+    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+  <div> <p className='services-content'> Service 5
   </p>
-  <button className='cTA-button2'> <b>Button</b></button>
+  <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
+  </div>
+  </div>
   </div>
 </div>
 
-</section> */}
+</section>
 
 <img className="driver-image"src="https://i.imgur.com/7epXEyQ.png"/>
 
