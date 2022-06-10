@@ -40,9 +40,26 @@ class Cutstomers extends Component{
             </header>
 
         </section>
+        <div className='customer-header'> Meet the happy clients that trust Trans Time Express</div>
+        <section>
+            <div>
+<img className="customer-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/08-CLN.jpg"/>
+<img className="customer-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/09-CLN.jpg"/>
+<img className="customer-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/06-CLN.jpg"/>
+<img className="customer-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/05-CLN.jpg"/>
+
+            </div>
+            <div>
+<img className="customer-logo2" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Smithsonian_Channel.png"/>
+<img className="customer-logo2" src="https://childrensnational.org/images/facebook/CNHSFBdefault.jpg"/>
+<img className="customer-logo3" src="https://upload.wikimedia.org/wikipedia/en/9/99/TVOne_2016.png"/>
+<img className="customer-logo4" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/03-CLN.jpg"/>
+
+            </div>
+        </section>
 
 
-        <div className='filler-footer'> filler footer here</div>
+        {/* <div className='filler-footer'> filler footer here</div> */}
 
 
         </body>

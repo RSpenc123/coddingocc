@@ -1,6 +1,7 @@
 .career-header{
     height: 400px;
-    background-color: orange;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3lhap5wOcYK4wNnL1CFROGCkO0BpeUjD8QA&usqp=CAU");
+    object-fit: fill;
     font-size: 100px;
     display: flex;
     align-items: center;
@@ -9,9 +10,20 @@
 
 .pitch{
     height: 200px;
-    background-color:
-    #e3e3e3     ;
+    background-color: #f7f7f7 ;
     margin-top: 50px;
+  
+    
+}
+
+.pitch-text{
+    font-weight: bold;
+    /* margin-top: 40px; */
+    font-size: 50px;
+}
+
+.pitch-desc{
+font-size: 20px;
 }
 
 .position{

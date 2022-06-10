@@ -45,12 +45,12 @@ class Worker extends Component{
 
         <section>
             <div className='pitch'>
-                <p>Pitch to attract workers</p>
-                <p> Some benefits in working for us</p>
+                <p className='pitch-text'>Pitch to attract workers</p>
+                <p className='pitch-desc'> Some benefits in working for us</p>
             </div>
         </section>
         <section>
-            <p> available positions</p>
+            <p className='pitch-text'> Available Positions</p>
             <div className='list-position' >
                <li className='position'>position 1</li> 
                <li className='position'>position 2</li>
