@@ -137,7 +137,8 @@ render(){
 <div className='call'>
   <b className='cTA'>Call to action</b>
   <p className='cTA-info'>More info relative to the website. Here's more random text to try and fill in some space.</p>
-  <button className='cTA-button'> <b>Button</b></button>
+  {/* <button className='cTA-button'> <b>Button</b></button> */}
+  <p className='home-number'>(800) 222-4959</p>
 </div>
 <div className='imager'>
   <img className='over-image' src="https://i.imgur.com/xabYtmt.png"/>

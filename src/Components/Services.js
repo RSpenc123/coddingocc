@@ -11,7 +11,7 @@ class Services extends Component{
     render(){
         return(
         <body className='body'>
-    <section> 
+       <section> 
             <header className='transport-header'>
                 <Link to={`/nav`}> <img className="trans-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Time-Express-logo.png"img/> </Link>
                
@@ -58,7 +58,7 @@ class Services extends Component{
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
     <p>name</p>
-    <p> description, here is some filler to fill in the </p>
+     <p> description, here is some filler to fill in the </p>
 </div>
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
@@ -72,12 +72,11 @@ class Services extends Component{
 </div>
 
 </section>
-
 <section className='service-items'>
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
     <p>name</p>
-    <p> description, here is some filler to fill in the </p>
+     <p> description, here is some filler to fill in the </p>
 </div>
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>

@@ -37,7 +37,7 @@ class Contact extends Component{
            
                 <div className='trans-sign'>
                     <b> Sign-Up</b>
-                </div>
+                </div> 
                 <div className='trans-log'>
                     <img className="profile" src='https://i.imgur.com/mugWDO5.png'/>
                     <b className='login'>Log in</b>
@@ -62,11 +62,31 @@ class Contact extends Component{
         </section>
         <section className='offices'>
             <div className='office-box'> 
-            <p>office 1</p>
-            <p>phone</p>
-            <p>email</p>
+            <p>Rockville, MD</p>
+            <p>(301) 468-8901</p>
+            <p>11820 Parklawn Dr, Ste 205,
+Rockville, MD 20852</p>
             </div>
-            <div className='office-box'> office 2</div>
+            <div className='office-box'> 
+            <p>Savage, MD</p>
+            <p>(301) 490-5000</p>
+            <p>8840 Greenwood Pl, Ste B,
+Savage, MD 20763</p>
+</div>
+        </section>
+        <section className='offices'>
+            <div className='office-box'> 
+            <p>York, PA</p>
+            <p>(717) 318-5174</p>
+            <p>2224-A South Queen St
+York, PA 17402</p>
+            </div>
+            <div className='office-box'> 
+            <p>West McLean, VA</p>
+            <p>(703) 790-4666</p>
+            <p>PO BOX 3303,
+West McLean, VA 22103</p>
+</div>
         </section>
 
 
