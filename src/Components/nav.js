@@ -241,8 +241,8 @@ render(){
 </div>
 
 </section>
-
-<img className="driver-image"src="https://i.imgur.com/7epXEyQ.png"/>
+{/* 
+<img className="driver-image"src="https://i.imgur.com/7epXEyQ.png"/> */}
 
 
 

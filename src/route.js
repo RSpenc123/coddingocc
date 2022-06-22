@@ -9,6 +9,7 @@ import Customers from "./Components/Cutomers"
 import Contact from "./Components/Contact"
 import Services from './Components/Services';
 import Apply from "./Components/Apply"
+import About from './Components/about';
 
 export default (
     <Switch>
@@ -20,6 +21,7 @@ export default (
         <Route path = "/Contact" component={Contact}/>
         <Route path = "/Services" component={Services}/>
         <Route path = "/Apply" component={Apply}/>
+        <Route path = "/About" component={About}/>
 
 
         

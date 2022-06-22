@@ -36,3 +36,12 @@
     margin-right: 50px;
     margin-top: 50px;
 }
+
+.service-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.service-description{
+    width: 300px;
+    font-size: 15x;
+}
