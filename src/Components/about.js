@@ -31,9 +31,10 @@ class About extends Component{
                     <b> Career</b>
                 </div> </Link>
        
+                <Link to ={'News'}>
                 <div className='transport-buttons'>
                     <b> News</b>
-                </div>
+                </div> </Link>
            
                 {/* <div className='trans-sign'>
                     <b> Sign-Up</b>
@@ -138,8 +139,29 @@ class About extends Component{
   
      </div>
  </section>
-        {/* <div className='filler-footer'> filler footer here</div> */}
+ <footer className='footer'>
+    <div className='footer-left'>
+<img className="trans-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Time-Express-logo.png"img/>
+<p className='footer-cc'>Trans Time Mobile. All Rights Reserved
+</p>
+</div>
+<div className='footer-box1'> 
+    <p>Services</p>
+    <p>News</p>
+    <p>Career</p>
+    <p>Contact</p>
+   
+    </div>
 
+    <div className='footer-box2'> 
+    <p>Company</p>
+    <p>About</p>
+    <p>History</p>
+    <p>Community</p>
+    <p>Site Map</p>
+    </div>
+    
+</footer>
 
         </body>
         )     

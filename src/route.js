@@ -10,6 +10,7 @@ import Contact from "./Components/Contact"
 import Services from './Components/Services';
 import Apply from "./Components/Apply"
 import About from './Components/about';
+import News from "./Components/news"
 
 export default (
     <Switch>
@@ -22,6 +23,7 @@ export default (
         <Route path = "/Services" component={Services}/>
         <Route path = "/Apply" component={Apply}/>
         <Route path = "/About" component={About}/>
+        <Route path = "/News" component={News}/>
 
 
         

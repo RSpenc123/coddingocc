@@ -11,6 +11,8 @@ class Services extends Component{
     render(){
         return(
         <body className='body'>
+       
+
        <section> 
             <header className='transport-header'>
                 <Link to={`/nav`}> <img className="trans-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Time-Express-logo.png"img/> </Link>
@@ -31,16 +33,19 @@ class Services extends Component{
                     <b> Career</b>
                 </div> </Link>
        
+                <Link to ={'News'}>
                 <div className='transport-buttons'>
                     <b> News</b>
-                </div>
+                </div> </Link>
            
-                <div className='trans-sign'>
+                {/* <div className='trans-sign'>
                     <b> Sign-Up</b>
-                </div>
+                </div> */}
+                <a className='trans-sign' target="_blank" href="https://www.transtimeexpress.com/account/">Sign-Up</a>
                 <div className='trans-log'>
                     <img className="profile" src='https://i.imgur.com/mugWDO5.png'/>
-                    <b className='login'>Log in</b>
+                    {/* <b className='login'>Log in</b> */}
+                    <a className='login' target="_blank" href="https://order.mydispatch.com/Default.aspx?OfficeAccount=250478">Log in</a>
                 </div>
             </header>
 
@@ -167,7 +172,29 @@ class Services extends Component{
 </div>
 
 </section>
-        {/* <div className='filler-footer'> filler footer here</div> */}
+<footer className='footer'>
+    <div className='footer-left'>
+<img className="trans-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Time-Express-logo.png"img/>
+<p className='footer-cc'>Trans Time Mobile. All Rights Reserved
+</p>
+</div>
+<div className='footer-box1'> 
+    <p>Services</p>
+    <p>News</p>
+    <p>Career</p>
+    <p>Contact</p>
+   
+    </div>
+
+    <div className='footer-box2'> 
+    <p>Company</p>
+    <p>About</p>
+    <p>History</p>
+    <p>Community</p>
+    <p>Site Map</p>
+    </div>
+    
+</footer>
 
 
         </body>
