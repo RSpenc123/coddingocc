@@ -11,6 +11,8 @@ import Services from './Components/Services';
 import Apply from "./Components/Apply"
 import About from './Components/about';
 import News from "./Components/news"
+import Testimonials from "./Components/Testimonials"
+import Dropdown from "./Components/dropdown"
 
 export default (
     <Switch>
@@ -24,7 +26,8 @@ export default (
         <Route path = "/Apply" component={Apply}/>
         <Route path = "/About" component={About}/>
         <Route path = "/News" component={News}/>
-
+        <Route path = "/Testimonials" component={Testimonials}/>
+        <Route path = "/Dropdown" component={Dropdown}/>
 
         
     </Switch>

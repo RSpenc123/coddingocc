@@ -56,73 +56,85 @@ class About extends Component{
  <section className='trans-people'>
      <div >
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Mona-Toosi.jpg"/>
-         <p>Mona Toosi</p>
-         <p>Chief Executive Officer</p>
+         <p className='position'>CHIEF EXECUTIVE OFFICER</p>
+           <p className='name'>MONA TOOSI</p>
+     
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Ali-Sherafaddin.jpg"/>
-         <p>ALI SHERAFADDIN</p>
-         <p>CHIEF OPERATIONS MANAGER</p>
+         <p className='position'>CHIEF OPERATIONS MANAGER</p>
+         <p className='name'>ALI SHERAFADDIN</p>
+        
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Bobby-Sharafeddin.jpg"/>
-         <p>BOBBY SHARAFEDDIN</p>
-         <p>VP_OPERATIONS MANAGER</p>
+         <p className='position'>VP_OPERATIONS MANAGER</p>
+         <p className='name'>BOBBY SHARAFEDDIN</p>
+        
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Sean-Molkara.jpg"/>
-         <p>SEAN MOLKARA</p>
-         <p>CHIEF FINANCIAL OFFICER</p>
+         <p className='position'>CHIEF FINANCIAL OFFICER</p>
+          <p className='name'>SEAN MOLKARA</p>
+        
      </div>
  </section>
  <section className='trans-people'>
      <div >
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Ben-Diyoun.jpg"/>
-         <p>BEN DIYOUN</p>
-         <p>OFFICE MANAGER</p>
+         <p className='position'>OFFICE MANAGER</p>
+          <p className='name'>BEN DIYOUN</p>
+        
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/AJ-Sharafeddin.jpg"/>
-         <p>AJ SHARAFEDDIN</p>
-         <p>REGIONAL MANAGER</p>
+         <p className='position'>REGIONAL MANAGER</p>
+           <p className='name'>AJ SHARAFEDDIN</p>
+      
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Scott-Smolinski.jpg"/>
-         <p>SCOTT SMOLINSKI</p>
-         <p>LOGISTICS MANAGER</p>
+         <p className='position'>LOGISTICS MANAGER</p>
+          <p className='name'>SCOTT SMOLINSKI</p>
+        
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Scott-Kristiansen.jpg"/>
-         <p>SCOTT KRISTIANSEN</p>
-         <p>LOGISTICS MANAGER</p>
+         <p className='position'>LOGISTICS MANAGER</p>
+          <p className='name'>SCOTT KRISTIANSEN</p>
+       
      </div>
  </section>
  <section className='trans-people'>
      <div >
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Naz-Zori.jpg"/>
-         <p>NAZ ZORI</p>
-         <p>ACCOUNT EXECUTIVE</p>
+         <p className='position'>ACCOUNT EXECUTIVE</p>
+         <p className='name'>NAZ ZORI</p>
+        
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/TC-Barbett.jpg"/>
-         <p>TC BARBETT</p>
-         <p>CSR MANAGER</p>
+         <p className='position'>CSR MANAGER</p>
+          <p className='name'>TC BARBETT</p>
+      
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Bob_white.jpg"/>
-         <p>BOB WHITE</p>
-         <p>WAREHOUSE MANAGER</p>
+         <p className='position'>WAREHOUSE MANAGER</p>
+          <p className='name'>BOB WHITE</p>
+       
      </div>
      <div>
          <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Joe-Schaufele.jpg"/>
-         <p>JOE SCHAUFELE</p>
-         <p>DIRECTOR OF SPECIAL OPERATIONS</p>
+         <p className='position'>DIRECTOR OF SPECIAL OPERATIONS</p>
+          <p className='name'>JOE SCHAUFELE</p>
+         
      </div>
  </section>
-<div className='meet-header'>
+{/* <div className='meet-header'>
     <p>Testimonials</p>
-</div>
- <section>
+</div> */}
+ {/* <section>
      <div className='testimonial-section'>
          <p className='testimonial'>testimonial here</p>
          <p className='testimonial'>testimonial here</p>
@@ -138,7 +150,7 @@ class About extends Component{
          <p className='testimonial'>testimonial here</p>
   
      </div>
- </section>
+ </section> */}
  <footer className='footer'>
     <div className='footer-left'>
 <img className="trans-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Time-Express-logo.png"img/>

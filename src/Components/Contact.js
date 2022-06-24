@@ -55,13 +55,19 @@ class Contact extends Component{
         <section className='contact-services'>
             <div className='phone'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
-               (301) 468-8901 </div>
+                (800) 222-4959 </div>
                 <div className='phone'>
-                <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
-                Email here </div>
+                <img className="contact-icons2" src="http://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png"/>
+                <p>order@transtimeexpress.com</p> </div>
                 {/* <div className='phone'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
                Hours here </div> */}
+                <a  target="_blank" href="https://www.linkedin.com/company/trans-time-express"> <img className='contact-icons' 
+                src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/linkedin-logo-3.png"/></a>
+               
+                <a  target="_blank" href="https://www.facebook.com/Trans-Time-Express-236099153618807/"> <img className='contact-icons' 
+                src="https://www.freeiconspng.com/thumbs/facebook-logo-png/photos-facebook-logo-png-transparent-background-13.png"/></a>
+               
         </section>
         <section className='offices'>
             <div className='office-box'> 

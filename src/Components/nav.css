@@ -106,7 +106,7 @@ background-image: url("https://images.unsplash.com/photo-1592838064575-70ed626d3
   margin-left: -800px;
 }
 .cTA-info{
-  font-size: 30px;
+  font-size: 20px;
   width: 500px;
   text-align: left;
   margin-left: 40px;
@@ -131,9 +131,10 @@ text-shadow: .1px .1px .1px black, 0 0 0px black, 0 0 1px black;
 }
 .home-number{
   margin-right: 1130px;
-  color: white;
+  color: black;
   font-size: 30px;
   /* width: 200px; */
+  font-weight: bold;
 }
 .cTA-button2{
   width: 130px;

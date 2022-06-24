@@ -97,8 +97,8 @@ class Cutstomers extends Component{
 <img className="customer-logo6" src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/2048760-wbal-mercy-1-1607018187.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"/>
 <img className="customer-logo6" src="https://yt3.ggpht.com/8MkOSL9RiBnazmKg3YV0GwwWUYvSlPboFmZA7UufZ7OjyVxeuBd1KoIT2UoggJvbxdo0x1fxpA=s900-c-k-c0x00ffffff-no-rj"/>
 <img className="customer-logo6" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/05-CLN.jpg"/>
-<img className="customer-logo6" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/05-CLN.jpg"/>
-<img className="customer-logo6" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/05-CLN.jpg"/>
+<img className="customer-logo6" src="https://www.hjf.org/themes/custom/hjf/logo.svg"/>
+<img className="customer-logo6" src="https://www.montgomerycountymd.gov/mcgresponsive/Resources/Images/countyseal.png"/>
 
             </div>
             {/* <div>

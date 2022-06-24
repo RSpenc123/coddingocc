@@ -9,7 +9,7 @@
 }
 
 .pitch{
-    height: 200px;
+    height: 250px;
     background-color: #f7f7f7 ;
     margin-top: 50px;
   
@@ -17,9 +17,11 @@
 }
 
 .pitch-text{
-    font-weight: bold;
+    /* font-weight: bold; */
     /* margin-top: 40px; */
-    font-size: 50px;
+    font-size: 30px;
+    width: 700px;
+    margin-left: 28%;
 }
 
 .pitch-desc{

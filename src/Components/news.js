@@ -1,14 +1,17 @@
 import React, {Component} from 'react'
+import {useState} from 'react'
 import {connect} from 'react-redux'
 import axios from 'axios'
 import './news.css'
 import './Contact'
 import {Link, withRouter} from "react-router-dom"
+import Dropdown from './dropdown'
 
 
 
-class News extends Component{
+class News extends Component{ 
     render(){
+        
         return(
         <body className='body'>
              <section> 
@@ -48,6 +51,8 @@ class News extends Component{
             </header>
 
         </section>
+
+
 
    <section className='news-section'>
        <div className='news-box'>

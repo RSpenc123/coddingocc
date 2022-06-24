@@ -51,13 +51,13 @@ class Services extends Component{
 
         </section>
 
-<section className='service-header'>
+{/* <section className='service-header'>
     <div>
         <p className='service-call'> call to action</p>
         <p className='service-info'> a bit more info</p>
         <button className='service-button'>something here</button> 
     </div>
-</section>
+</section> */}
 
 <section className='service-items'>
 <div className='service-boxes'>
@@ -87,7 +87,7 @@ class Services extends Component{
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
     <p className='service-name'>STORAGE & FULFILLMENT SOLUTIONS</p>
-    <p className='service-description'> Whether you need storage for weeks or months, we are ready to store your inventory and offer distribution and final mile services anywhere in the DMV area.</p>
+    <p className='service-description2'> Whether you need storage for weeks or months, we are ready to store your inventory and offer distribution and final mile services anywhere in the DMV area.</p>
 </div>
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
@@ -100,7 +100,7 @@ class Services extends Component{
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
     <p className='service-name'>VISA, PASSPORTS & DOCUMENTATION</p>
-     <p className='service-description'> We provide expedited Visa processing and document authentication services with same day pick up and delivery to every Embassy in the Washington, DC area. </p>
+     <p className='service-description2'> We provide expedited Visa processing and document authentication services with same day pick up and delivery to every Embassy in the Washington, DC area. </p>
 </div>
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>

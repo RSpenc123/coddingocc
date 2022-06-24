@@ -34,6 +34,17 @@
   
 }
 
+.position{
+    font-size: 10px;
+    color: grey;
+    margin-right: 100px;
+}
+.name{
+    font-size: 16px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
 .testimonial-section{
     display: flex;
     justify-content: center;

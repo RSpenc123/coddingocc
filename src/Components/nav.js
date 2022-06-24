@@ -139,9 +139,10 @@ render(){
 <section className='main-section'>
 <div className='call'>
   <b className='cTA'>Call to action</b>
-  <p className='cTA-info'>More info relative to the website. Here's more random text to try and fill in some space.</p>
-  {/* <button className='cTA-button'> <b>Button</b></button> */}
   <p className='home-number'>(800) 222-4959</p>
+  <p className='cTA-info'>Proven courier company with over 35 years of experience delivering quality and timely services with 24/7/365 coverage with over 300 qualified drivers utilizing state-of-the-art technology providing near real-time driver and package tracking with mobile capability with live agents to meet your current and future needs.</p>
+  {/* <button className='cTA-button'> <b>Button</b></button> */}
+  
 </div>
 <div className='imager'>
   <img className='over-image' src="https://i.imgur.com/xabYtmt.png"/>
@@ -207,39 +208,33 @@ render(){
   
   <div className='service-box'>
     <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
-  <div> <p className='services-content'> Service 1
+  <div> <p className='services-content'> 24/7/365 Coverage
   </p>
   <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
   </div>
   </div>
   <div className='service-box'>
     <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
-  <div> <p className='services-content'> Service 2
+  <div> <p className='services-content'> Medical Logistics
   </p>
   <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
   </div>
   </div>
   <div className='service-box'>
     <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
-  <div> <p className='services-content'> Service 3
+  <div> <p className='services-content'> Warehouse / Storage
   </p>
   <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
   </div>
   </div>
   <div className='service-box'>
     <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
-  <div> <p className='services-content'> Service 4
+  <div> <p className='services-content'> Office Move as 4th Service
   </p>
   <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
   </div>
   </div>
-  <div className='service-box'>
-    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
-  <div> <p className='services-content'> Service 5
-  </p>
-  <p className='service-desc'> Something about the service, more tex to fill in space. More text to fill in space. more text to fill in space</p>
-  </div>
-  </div>
+
   </div>
 </div>
 

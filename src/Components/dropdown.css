@@ -1,0 +1,16 @@
+.service-submenu{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.service-submenu.clicked{
+    display: none;
+}
+
+.submenu-item{
+    color: white
+}
+
+.submenu-item:hover{
+    background-color: red;
+}
