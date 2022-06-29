@@ -16,7 +16,7 @@ function Header() {
    <Link to={`/nav`}> <img className="trans-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Time-Express-logo.png"img/> </Link>
                
        {navItems.map((item) => {
-           if (item.title === "Services"){
+           if (item.title === "Company"){
             return(
                 <li key={item.id} className={item.cName}>
                     <Link to={item.path} 

@@ -1,10 +1,11 @@
 .service-submenu{
     background-color: lightgray;
     /* cursor: pointer; */
-    height: 60px;
+    height: 80px;
     /* margin-top: 200px; */
     position: absolute;
-    top: 60px;
+    top: 100px;
+    font-size: 20px;
 }
 
 .service-submenu.clicked{

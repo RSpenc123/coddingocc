@@ -29,12 +29,30 @@
     /* margin-left: 140px; */
     margin-right: 25px;
     margin-top: 20px;
-    height: 40px;
-    width: 80px;
+    height: 50px;
+    width: 90px;
     background-color: #ebd534;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.trans-sign:hover{
+  color: Black;
+  /* margin-left: 140px; */
+  margin-right: 25px;
+  margin-top: 20px;
+  height: 50px;
+  width: 90px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
 .services{
@@ -58,13 +76,23 @@
 }
 
 .profile{
-    height: 25px;
-    margin-top: 30px;
+    height: 40px;
+    margin-top:25px;
 }
 
 .login{
     margin-top: 30px;
     margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.login:hover{
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ebd534;
 }
 
 .trans-log{
@@ -106,8 +134,8 @@ background-image: url("https://images.unsplash.com/photo-1592838064575-70ed626d3
   margin-left: -800px;
 }
 .cTA-info{
-  font-size: 20px;
-  width: 500px;
+  font-size: 30px;
+  width: 800px;
   text-align: left;
   margin-left: 40px;
   color: white;
@@ -130,9 +158,9 @@ border: none;
 text-shadow: .1px .1px .1px black, 0 0 0px black, 0 0 1px black;
 }
 .home-number{
-  margin-right: 1130px;
+  margin-right: 970px;
   color: black;
-  font-size: 30px;
+  font-size: 50px;
   /* width: 200px; */
   font-weight: bold;
 }
@@ -194,43 +222,26 @@ float: right;
 
 
 }
-.imageleft{
-  width: 400px;
-  margin-top: 50px;
-  /* height: 100px; */
-  margin-right: -100px;
-  display: right;
-}
+
 
 .imageright{
-  width: 800px;
+  width: 650px;
   margin-bottom: 70px;
   /* height: 100px; */
   /* margin-right: 100px; */
   display: left;
   margin-top: 30px;
+  height: 500px;
 }
-.textleft{
-width: 500px;
-float: left;
-margin-top: 60px;
-margin-left: 100px;
-}
+
 .textright{
-  width: 500px;
+  width: 650px;
   float: right;
   /* margin-top: 60px; */
   margin-right: 100px;
   }
 
-.service-content{
-  text-align: left;
-  padding: 0px;
-  margin: 0px;
-  /* margin-top: 30px; */
-  margin-bottom: 30px;
-  /* width: 100px */
-}
+
 .service-section{
   display: block;
 }
@@ -264,13 +275,13 @@ text-align: left;
 
 
 .services-content{
-  /* text-align: left; */
+  text-align: left;
   padding: 0px;
   margin: 0px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: bold;
-  margin-right: 390px;
+  margin-right: 430px;
   font-size: 20px;
   /* width: 100px */
 }

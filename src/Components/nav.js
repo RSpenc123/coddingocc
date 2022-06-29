@@ -84,7 +84,7 @@ render(){
   </div>
   <div className='service-box'>
     <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
-  <div> <p className='services-content'> Office Move as 4th Service
+  <div> <p className='services-content'> Office Move 
   </p>
   <p className='service-desc'> We offer complete office relocation services along with warehousing and storage solutions for all your moving needs.</p>
   </div>
