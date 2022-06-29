@@ -36,7 +36,7 @@
 .service-boxes{
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -49,9 +49,11 @@
 .service-description{
     width: 300px;
     font-size: 15x;
+    height:70px
 }
 .service-description2{
     width: 300px;
     font-size: 15x;
     margin-left: 15px;
+    height:70px
 }

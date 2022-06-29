@@ -1,19 +1,28 @@
 import React, {useState} from 'react'
 import {Link} from "react-router-dom"
 import "./dropdown.css"
+import { serviceDropdown} from "./NavItems"
 
 function Dropdown() {
     const [dropdown, setDropdown] = useState(false);
     return(
-        <div className= {dropdown ? "service-submenu clicked": "service-submenu" }   onClick={() => setDropdown(!dropdown)}> 
+        <div 
+        className= {dropdown ? "service-submenu clicked": "service-submenu" }   
+        onClick={() => setDropdown(!dropdown)}> 
 
-<Link to ={'services'}
- onClick={() => setDropdown(false)}
->  potato </Link>
-<p className='submenu-item'>item 1</p>
-<p>item 2</p>
-<p>item 3</p>
-<p>item 4</p>
+{serviceDropdown.map((item)=> {
+    return(
+        <li key={item.id}>
+            <Link
+            to={item.path}
+            className={item.cName}
+            onClick={() =>  setDropdown(false)}>
+{item.title}
+            </Link>
+        </li>
+    )
+}
+)}
         </div>
     )
 }

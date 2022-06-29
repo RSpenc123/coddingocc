@@ -13,10 +13,11 @@ import About from './Components/about';
 import News from "./Components/news"
 import Testimonials from "./Components/Testimonials"
 import Dropdown from "./Components/dropdown"
+import Header from "./Components/Header"
 
 export default (
     <Switch>
-        <Route exact path = '/' component={Homepage}/>
+        <Route exact path = '/' component={Nav}/>
         <Route path = "/Class1" component={Class}/>
         <Route path = "/Nav" component={Nav}/>
         <Route path = "/Job" component={Worker}/>
@@ -28,6 +29,7 @@ export default (
         <Route path = "/News" component={News}/>
         <Route path = "/Testimonials" component={Testimonials}/>
         <Route path = "/Dropdown" component={Dropdown}/>
+        <Route path = "/Header" component={Header}/>
 
         
     </Switch>

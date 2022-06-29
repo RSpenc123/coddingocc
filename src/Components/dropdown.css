@@ -1,6 +1,10 @@
 .service-submenu{
-    background-color: orange;
-    cursor: pointer;
+    background-color: lightgray;
+    /* cursor: pointer; */
+    height: 60px;
+    /* margin-top: 200px; */
+    position: absolute;
+    top: 60px;
 }
 
 .service-submenu.clicked{
@@ -8,9 +12,12 @@
 }
 
 .submenu-item{
-    color: white
+    color: white;
+
 }
 
 .submenu-item:hover{
     background-color: red;
+
+ 
 }
