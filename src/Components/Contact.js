@@ -22,7 +22,10 @@ class Contact extends Component{
                 (800) 222-4959 </div>
                 <div className='phone'>
                 <img className="contact-icons2" src="http://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png"/>
-                <p>order@transtimeexpress.com</p> </div>
+                <p>Sales@Transtimeexpress.com</p> </div>
+                <div className='phone'>
+                <img className="contact-icons2" src="https://media.istockphoto.com/vectors/printer-icon-modern-thin-line-design-vector-line-icon-vector-id1128788131?k=20&m=1128788131&s=612x612&w=0&h=LZQWiL0uxjH1l0FVlCe4DlhAaHeuqifCgkAXzsx_AYE="/>
+                <p>877-525-5206</p> </div>
                 {/* <div className='phone'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
                Hours here </div> */}

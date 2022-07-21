@@ -26,6 +26,21 @@
     width: 50px;
     margin-left: 42%;
 }
+.service-icon2{
+    height: 100px;
+    width: 150px;
+    margin-left: 27%;
+}
+.service-icon3{
+    height: 100px;
+    width: 100px;
+    margin-left: 22%;
+}
+.service-icon4{
+    height: 75px;
+    width: 75px;
+    margin-left: 22%;
+}
 
 .service-items{
     display: flex;
@@ -40,6 +55,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 320px;
 }
 
 .service-name{

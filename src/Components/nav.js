@@ -62,28 +62,28 @@ render(){
   <p className='service-bold'>What we do for you</p>
   
   <div className='service-box'>
-    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+    <img className='dot' src ="https://i.imgur.com/HLKL52M.png"/>
   <div> <p className='services-content'> 24/7/365 Coverage
   </p>
   <p className='service-desc'> Our customers trust us to deliver their packages locally on time and accurately, which is why we serve so many of the areas professional firms.</p>
   </div>
   </div>
   <div className='service-box'>
-    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+    <img className='dot' src ="https://i.imgur.com/ZH4sn6j.png"/>
   <div> <p className='services-content'> Medical Logistics
   </p>
   <p className='service-desc'> We specialize in urgent, on-demand medical, pharmaceutical and healthcare deliveries with tailored solutions to meet your client's needs and 24/7/365 availability.</p>
   </div>
   </div>
   <div className='service-box'>
-    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+    <img className='dot' src ="https://i.pinimg.com/originals/99/91/a4/9991a4b887eeee54f30b282f222a42a8.png"/>
   <div> <p className='services-content'> Warehouse / Storage
   </p>
   <p className='service-desc'> Whether you need storage for weeks or months, we are ready to store your inventory and offer distribution and final mile services anywhere in the DMV area.</p>
   </div>
   </div>
   <div className='service-box'>
-    <img className='dot' src ="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/1200px-Location_dot_black.svg.png"/>
+    <img className='dot' src ="https://grid.gograph.com/truck-with-boxes-and-courier-eps-illustration_gg71281839.jpg"/>
   <div> <p className='services-content'> Office Move 
   </p>
   <p className='service-desc'> We offer complete office relocation services along with warehousing and storage solutions for all your moving needs.</p>

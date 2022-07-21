@@ -20,7 +20,8 @@ class Cutstomers extends Component{
         return(
         <body className='body'>
 
-        <div className='customer-header'> Meet the happy clients that trust Trans Time Express</div>
+        <div className='customer-header'> 
+        <p className='cust-text'>Meet the happy clients that trust Trans Time Express</p></div>
         {/* <section>
             <div>
 <img className="customer-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/08-CLN.jpg"/>

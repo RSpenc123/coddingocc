@@ -21,17 +21,17 @@ class News extends Component{
    <section className='news-section'>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
-           <p>news 1</p>
+           <p className='news-text'>Wellspan Client Win</p>
            <button>link here</button>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
-           <p>news 2</p>
+           <p className='news-text'>Expanded Capability in our new warehouse in Savage </p>
            <button>link here</button>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
-           <p>news 3</p>
+           <p className='news-text'>Children Hospital</p>
            <button>link here</button>
        </div>
    </section>

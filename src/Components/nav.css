@@ -195,8 +195,8 @@ float: right;
 }
 
 .services-header{
-  margin-top: 150px;
-  height: 120px;
+  margin-top: 15px;
+  /* height: 120px; */
   /* background-color: grey; */
 }
 
@@ -207,12 +207,12 @@ float: right;
   margin-bottom: 1px;
 }
 
-.item-left{
+/* .item-left{
   display: inline;
   width: 1000px;
   margin-top: 400px;
   height: 1000px;
-}
+} */
 
 .item-right{
   /* background-color: grey;
@@ -226,7 +226,7 @@ float: right;
 
 .imageright{
   width: 650px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   /* height: 100px; */
   /* margin-right: 100px; */
   display: left;
@@ -259,7 +259,7 @@ float: right;
 
 
 .dot{
-  width: 10px;
+  width: 50px;
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -281,7 +281,7 @@ text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: bold;
-  margin-right: 430px;
+  margin-right: 380px;
   font-size: 20px;
   /* width: 100px */
 }
