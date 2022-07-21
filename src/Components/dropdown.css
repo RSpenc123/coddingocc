@@ -1,7 +1,7 @@
 .service-submenu{
     background-color: lightgray;
     /* cursor: pointer; */
-    height: 80px;
+    height: 300px;
     /* margin-top: 200px; */
     position: absolute;
     top: 100px;
@@ -14,6 +14,7 @@
 
 .submenu-item{
     color: white;
+    height: 50px;
 
 }
 
