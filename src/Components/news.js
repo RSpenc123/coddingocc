@@ -46,7 +46,7 @@ class News extends Component{
 </p>
 </div>
 <div className='footer-box1'> 
-    <p>Services</p>
+    <p className='footer-head'>Services</p>
     <p>News</p>
     <p>Career</p>
     <p>Contact</p>
@@ -54,7 +54,7 @@ class News extends Component{
     </div>
 
     <div className='footer-box2'> 
-    <p>Company</p>
+    <p className='footer-head'>Company</p>
     <p>About</p>
     <p>History</p>
     <p>Community</p>

@@ -35,13 +35,16 @@
 .footer{
     display: flex;
     justify-content: center;
-    background-color: orange;
+    background-color: #ebd534;
+}
+.footer-head{
+    font-weight: bold;
 }
 
 .footer-box1{
     font-size: 15px;
     margin-left: 30%;
-    margin-bottom: 33px;
+    margin-bottom: 28px;
 }
 .footer-box2{
     font-size: 15px;
@@ -50,6 +53,7 @@
 
 .footer-cc{
     font-size: 15px;
+    margin-right: 80px;
 }
 
 .footer-left{

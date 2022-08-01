@@ -24,15 +24,7 @@
     font-weight: bold;
 }
 
-.testimonial{
-    background-color: grey;
-    width: 270px;
-    height: 180px;
-    margin-left: 15px;
-    margin-right: 15px;
- 
-  
-}
+
 
 .position{
     font-size: 10px;
@@ -45,7 +37,3 @@
     font-weight: bold;
 }
 
-.testimonial-section{
-    display: flex;
-    justify-content: center;
-}

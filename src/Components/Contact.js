@@ -38,13 +38,13 @@ class Contact extends Component{
         </section>
         <section className='offices'>
             <div className='office-box'> 
-            <p>Rockville, MD</p>
+            <p className='location'>Rockville, MD</p>
             <p>(301) 468-8901</p>
             <p>11820 Parklawn Dr, Ste 205,
 Rockville, MD 20852</p>
             </div>
             <div className='office-box'> 
-            <p>Savage, MD</p>
+            <p className='location'>Savage, MD</p>
             <p>(301) 490-5000</p>
             <p>8840 Greenwood Pl, Ste B,
 Savage, MD 20763</p>
@@ -52,13 +52,13 @@ Savage, MD 20763</p>
         </section>
         <section className='offices'>
             <div className='office-box'> 
-            <p>York, PA</p>
+            <p className='location'>York, PA</p>
             <p>(717) 318-5174</p>
             <p>2224-A South Queen St
 York, PA 17402</p>
             </div>
             <div className='office-box'> 
-            <p>West McLean, VA</p>
+            <p className='location'>West McLean, VA</p>
             <p>(703) 790-4666</p>
             <p>PO BOX 3303,
 West McLean, VA 22103</p>

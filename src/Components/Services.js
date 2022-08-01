@@ -14,13 +14,12 @@ class Services extends Component{
        
 
 
-{/* <section className='service-header'>
+<section className='service-header'>
     <div>
-        <p className='service-call'> call to action</p>
-        <p className='service-info'> a bit more info</p>
-        <button className='service-button'>something here</button> 
+        <p className='service-call'> SERVICES</p>
+
     </div>
-</section> */}
+</section>
 
 <section className='service-items'>
 <div className='service-boxes'>
@@ -38,6 +37,11 @@ class Services extends Component{
     <p className='service-name'>PHARMACEUTICAL DELIVERY
 </p>
     <p className='service-description'> We specialize in urgent, on-demand pharmaceutical and healthcare deliveries with tailored solutions to meet your client's needs and 24/7/365 availability.</p>
+</div>
+<div className='service-boxes'>
+   <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
+    <p className='service-name'>Warehousing/Distribution/Logistics Mgt</p>
+    <p className='service-description'> description, here is some filler to fill in the </p>
 </div>
 
 </section>
@@ -57,6 +61,15 @@ class Services extends Component{
     <p className='service-name'>RESEARCH & RETRIEVAL</p>
     <p className='service-description'> Our legal team will research, locate and retrieve your important documents from any local, state and Federal agency. </p>
 </div>
+<div className='service-boxes'>
+   <img className="service-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EnEfeq4bBq2rbmfvtwnicOjCjV3P6AxmXQ&usqp=CAU"/>
+    <p className='service-name'>DRIVER LEASING
+</p>
+    <p className='service-description'> Learn more about our drivers for hire. At a low daily rate, access our full fleet of cars, vans and trucks when you're in need of additional or fill-in drivers.
+
+</p>
+</div>
+
 
 </section>
 <section className='service-items'>
@@ -74,6 +87,11 @@ class Services extends Component{
    <img className="service-icon" src="https://img.favpng.com/18/16/18/drawing-microscope-computer-icons-clip-art-png-favpng-nppWFnjsu3p8aGC2Xjvw4NywA.jpg"/>
     <p className='service-name'>TRIAL SITE SHIPPING</p>
     <p className='service-description'> With a specialty in trial site shipments, Washington Express can pack, crate, deliver and assist in setting up your trial materials and war room equipment. </p>
+</div>
+<div className='service-boxes'>
+   <img className="service-icon" src="https://img.favpng.com/20/8/8/computer-icons-logistics-transport-clip-art-scalable-vector-graphics-png-favpng-MwQmGgv498X6mk6pyUStw0YLQ.jpg"/>
+    <p className='service-name'>TRADE SHOW LOGISTICS</p>
+     <p className='service-description'> Our comprehensive convention and trade show moving services can coordinate the difficult navigation of your booths, materials and exhibits safely. </p>
 </div>
 
 </section>
@@ -94,6 +112,11 @@ class Services extends Component{
     <p className='service-name'>WASHINGTON DC LINE STANDING</p>
     <p className='service-description'> Washington Express provides professional, competitively priced Line-standing and seat holding services for congressional and judicial hearings. </p>
 </div>
+<div className='service-boxes'>
+   <img className="service-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3aZd266_UeaJPBRXy81Mfg_hXtGcPNOtctHDoTH9IlBlgYk0ylbTm38tCWLEIw0A9V0&usqp=CAU"/>
+    <p className='service-name'>FINAL MILE SERVICES</p>
+    <p className='service-description'> Last mile delivery services in the DMV region and custom delivery schedules for your distribution needs. Fulfillment services for easy distribution.</p>
+</div>
 
 </section>
 <section className='service-items'>
@@ -107,32 +130,12 @@ class Services extends Component{
     <p className='service-name'>AIR & GROUND DELIVERY</p>
     <p className='service-description'> Washington Express is available for pickups and/or deliveries 24 hours a day, 365 days a year. We offer time critical priority deliveries to anywhere in the U.S. and internationally. </p>
 </div>
-<div className='service-boxes'>
-   <img className="service-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3aZd266_UeaJPBRXy81Mfg_hXtGcPNOtctHDoTH9IlBlgYk0ylbTm38tCWLEIw0A9V0&usqp=CAU"/>
-    <p className='service-name'>FINAL MILE SERVICES</p>
-    <p className='service-description'> Last mile delivery services in the DMV region and custom delivery schedules for your distribution needs. Fulfillment services for easy distribution.</p>
-</div>
+
 
 </section>
 <section className='service-items'>
-<div className='service-boxes'>
-   <img className="service-icon" src="https://img.favpng.com/20/8/8/computer-icons-logistics-transport-clip-art-scalable-vector-graphics-png-favpng-MwQmGgv498X6mk6pyUStw0YLQ.jpg"/>
-    <p className='service-name'>TRADE SHOW LOGISTICS</p>
-     <p className='service-description'> Our comprehensive convention and trade show moving services can coordinate the difficult navigation of your booths, materials and exhibits safely. </p>
-</div>
-<div className='service-boxes'>
-   <img className="service-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EnEfeq4bBq2rbmfvtwnicOjCjV3P6AxmXQ&usqp=CAU"/>
-    <p className='service-name'>DRIVER LEASING
-</p>
-    <p className='service-description'> Learn more about our drivers for hire. At a low daily rate, access our full fleet of cars, vans and trucks when you're in need of additional or fill-in drivers.
 
-</p>
-</div>
-{/* <div className='service-boxes'>
-   <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
-    <p className='service-name'>name</p>
-    <p className='service-description'> description, here is some filler to fill in the </p>
-</div> */}
+
 
 </section>
 <footer className='footer'>

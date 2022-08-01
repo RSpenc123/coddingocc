@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import axios from 'axios'
 import './nav.css'
+import './news.css'
 import {Link, withRouter} from "react-router-dom"
 
 
@@ -47,6 +48,8 @@ render(){
   {/* <button className='cTA-button'> <b>Button</b></button> */}
   
 </div>
+<div className='curve'></div>
+<div className='box'></div>
 
 </section>
 
@@ -105,7 +108,7 @@ render(){
 </p>
 </div>
 <div className='footer-box1'> 
-    <p>Services</p>
+    <p className='footer-head'>Services</p>
     <p>News</p>
     <p>Career</p>
     <p>Contact</p>
@@ -113,7 +116,7 @@ render(){
     </div>
 
     <div className='footer-box2'> 
-    <p>Company</p>
+    <p className='footer-head'>Company</p>
     <p>About</p>
     <p>History</p>
     <p>Community</p>
