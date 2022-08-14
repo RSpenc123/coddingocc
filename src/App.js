@@ -3,6 +3,7 @@ import './App.css';
 import Route from "./route"
 import {HashRouter} from 'react-router-dom'
 import Header from './Components/Header';
+import Footer from './Components/footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     {Route}
 
     </div>
+    <Footer/>
     </HashRouter>
   );
 }

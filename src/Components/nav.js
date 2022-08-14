@@ -65,14 +65,14 @@ render(){
   <p className='service-bold'>What we do for you</p>
   
   <div className='service-box'>
-    <img className='dot' src ="https://i.imgur.com/HLKL52M.png"/>
+    <img className='dot' src ="https://i.imgur.com/io8nvnm.png"/>
   <div> <p className='services-content'> 24/7/365 Coverage
   </p>
   <p className='service-desc'> Our customers trust us to deliver their packages locally on time and accurately, which is why we serve so many of the areas professional firms.</p>
   </div>
   </div>
   <div className='service-box'>
-    <img className='dot' src ="https://i.imgur.com/ZH4sn6j.png"/>
+    <img className='dot' src ="https://i.imgur.com/QdNBndw.png"/>
   <div> <p className='services-content'> Medical Logistics
   </p>
   <p className='service-desc'> We specialize in urgent, on-demand medical, pharmaceutical and healthcare deliveries with tailored solutions to meet your client's needs and 24/7/365 availability.</p>
@@ -86,7 +86,7 @@ render(){
   </div>
   </div>
   <div className='service-box'>
-    <img className='dot' src ="https://grid.gograph.com/truck-with-boxes-and-courier-eps-illustration_gg71281839.jpg"/>
+    <img className='dot' src ="https://i.imgur.com/AgBEgE4.png"/>
   <div> <p className='services-content'> Office Move 
   </p>
   <p className='service-desc'> We offer complete office relocation services along with warehousing and storage solutions for all your moving needs.</p>
@@ -101,29 +101,7 @@ render(){
 <img className="driver-image"src="https://i.imgur.com/7epXEyQ.png"/> */}
 
 
-<footer className='footer'>
-    <div className='footer-left'>
-<img className="trans-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/06/Time-Express-logo.png"img/>
-<p className='footer-cc'>Trans Time Mobile. All Rights Reserved
-</p>
-</div>
-<div className='footer-box1'> 
-    <p className='footer-head'>Services</p>
-    <p>News</p>
-    <p>Career</p>
-    <p>Contact</p>
-   
-    </div>
 
-    <div className='footer-box2'> 
-    <p className='footer-head'>Company</p>
-    <p>About</p>
-    <p>History</p>
-    <p>Community</p>
-    <p>Site Map</p>
-    </div>
-    
-</footer>
 
         </body>
         

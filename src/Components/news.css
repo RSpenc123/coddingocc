@@ -40,6 +40,13 @@
 .footer-head{
     font-weight: bold;
 }
+.footer-head:hover{
+    color: grey;
+}
+
+.footer-text:hover{
+    color: grey;
+}
 
 .footer-box1{
     font-size: 15px;

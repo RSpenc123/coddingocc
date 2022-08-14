@@ -8,20 +8,14 @@
 }
 .customer-header{
     height: 300px;
-    background-image: url("https://cdn.create.vista.com/api/media/small/426596016/stock-photo-happy-businessman-giving-high-five");
+    background-image: url("https://i.imgur.com/K7Trc3Q.jpg");
+    object-position: 50% 0;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    object-fit: cover;
-    background-size: contain;
-    overflow: scroll;
-    resize: both;
-    width: 960px;
-    margin-left: 200px;
+    align-items: center;
+    font-size: 100px;
     color: white;
+    text-shadow: .1px .1px .1px black, 0 0 0px black, 0 0 1px black;
    
 }
 .cust-text{
@@ -60,10 +54,14 @@ margin-right: 10px;
 
 .customer-logo6{
     width: 200px;
-    border-style: solid;
+    /* border-style: solid; */
     /* height: 200px; */
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
     /* margin-top: 50px; */
+}
+
+.customer-box{
+    margin-top: 50px;
 }

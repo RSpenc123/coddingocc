@@ -38,6 +38,20 @@ export const navItems  = [
       },
 
   ]
+
+
+
+  export const burger  = [
+    
+    {
+      id: 1,
+      title: 'burger',
+      // path: "./",
+      cName: "burger-icon"
+    },
+  
+
+  ]
   
 
 
@@ -62,6 +76,67 @@ export const navItems  = [
       },
       
 
+
+  ]
+
+
+  export const serviceBurger  = [
+    {
+      id: 1,
+      title: 'Home',
+      path: "./",
+      cName: "burg-item"
+    },
+    {
+      id: 2,
+      title: 'Company',
+      // path: "./",
+      cName: "burg-item"
+    },
+    {
+        id: 3,
+        title: 'Services',
+        path: "./Services",
+        cName: "burg-item"
+      },
+ 
+      {
+        id: 4,
+        title: 'Contact',
+        path: "./Contact",
+        cName: "burg-item"
+      },
+      {
+        id: 5,
+        title: 'Career',
+        path: "./Job",
+        cName: "burg-item"
+      },
+      {
+        id: 6,
+        title: 'News',
+        path: "./News",
+        cName: "burg-item"
+      },
+      {
+        id: 7,
+        title: 'About',
+        path: "./About",
+        cName: "burg-item"
+      },
+      {
+          id: 8,
+          title: 'Clients',
+          path: "./Customers",
+          cName: "burg-item"
+        },
+        {
+          id: 9,
+          title: 'Testimonials',
+          path: "./Testimonials",
+          cName: "burg-item"
+        },
+        
 
   ]
   export default {

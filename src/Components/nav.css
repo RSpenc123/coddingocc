@@ -220,16 +220,17 @@ float: right;
 }
 
 .services-header{
-  margin-top: 15px;
+  padding-top: 15px;
   /* height: 120px; */
   /* background-color: grey; */
+  background-color: rgb(242, 241, 241);
 }
 
 .service-header-text{
   font-size: 70px;
   font-weight: bold;
   /* color: white; */
-  margin-bottom: 1px;
+  margin-bottom: 10px;
 }
 
 /* .item-left{
@@ -297,7 +298,8 @@ text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+
+  background-color: rgb(242, 241, 241);
   
   color: black;
 }
@@ -305,7 +307,7 @@ text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(242, 241, 241);
+  background-color: white;
 }
 
 
