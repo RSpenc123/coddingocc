@@ -22,7 +22,7 @@ class Testimonials extends Component{
 
  
 
-<div className='meet-header'>
+<div className='testi-header'>
     <p>Testimonials</p>
 </div>
  <section>

@@ -160,7 +160,7 @@ background-image: url("https://i.imgur.com/u6T8zlH.jpg");
   font-weight: bold;
   position: absolute;
   z-index: 3;
-  bottom: 200px;
+  bottom: 30%;
   text-shadow: .1px .1px .1px black, 0 0 0px black, 0 0 1px black;
 }
 
@@ -242,7 +242,7 @@ float: right;
 
 .item-right{
   background-color: rgb(242, 241, 241);
-  height: 550px;
+  /* height: 550px; */
 
 
 

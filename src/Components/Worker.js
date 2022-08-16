@@ -11,6 +11,9 @@ class Worker extends Component{
     render(){
         return(
         <body className='body'>
+            <div>
+           <p className='work-header'>Join The Team</p>
+           </div>
 
         {/* <section className='career-header'>Careers</section> */}
 

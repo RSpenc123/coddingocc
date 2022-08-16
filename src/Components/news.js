@@ -15,7 +15,9 @@ class News extends Component{
         return(
         <body className='body'>
             
-
+            <div>
+           <p className='news-header'>News</p>
+           </div>
 
 
    <section className='news-section'>

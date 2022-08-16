@@ -1,3 +1,23 @@
+.news-header{
+    height: 300px;
+    background-image: url("https://i.imgur.com/XGxycxf.jpg");
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    object-position: 50% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: .1px .1px .1px black, 0 0 0px black, 0 0 1px black;
+    /* width: auto\9; */
+
+    /* height: auto; */
+}
+
+
+
 .news-image{
     height: 150px;
     width: 150px;
