@@ -19,28 +19,70 @@
 
 
 .news-image{
-    height: 150px;
-    width: 150px;
-    background-color: grey;
+    height: 300px;
+    width: 300px;
+    background-color: white;
 
 }
 
 .news-box{
-    height: 300px;
-    background-color: orange;
-    width: 200px;
+    height: 500px;
+    background-color: white;
+    width: 400px;
     margin-left: 15px;
     margin-right: 15px;
+    border-radius: 1em;
    
 }
 .news-section{
     display: flex;
     justify-content: center;
+    background-color: #f7f7f7 ;
+    flex-wrap: wrap;
 }
 .news-text{
     font-weight: bold;
     height: 50px;
 }
+.news-button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(180, 171, 171);
+    border-radius: 1em;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .trans-logo-footer{

@@ -35,7 +35,7 @@ class Testimonials extends Component{
           how persistent your team was in communicating with the other shipping company for the sake of your customer. 
           That to us is an exceptional Quality CUSTOMER SERVICE!!!"</p>
           <p>Great job, Kudos!</p>
-          <p>Medstar Health</p>
+          <p className='test-write'>Medstar Health</p>
           </div>
          <div className='testimonial'>
             <p>"Just wanted to take a minute to say thank you.  Your team's professionalism, customer service and 
@@ -43,14 +43,14 @@ class Testimonials extends Component{
                 the surveyor feedback as your team has been a great resource and excellent for being able to articulate 
                 your processes such as hazardous cleanups, etc.  In short, your team has been wonderful to deal with by the 
                 surveyors.  We appreciate everything your team does for the patients and the Wellspan Health System."</p>
-                <p>Wellspan Health Systems </p>
+                <p className='test-write'>Wellspan Health Systems </p>
          </div>
          <div className='testimonial'>
             <p>"I just wanted to give a compliment to the new couriers after a detailed selection process.  
                 They are extremely polite, dressed in professional uniforms and are very efficient.  
                 They greet you and look like they are practically running.  Congratulations to everyone on your great 
                 selection of the new courier services."</p>
-            <p>Health Network Executive</p>
+            <p className='test-write'>Health Network Executive</p>
          </div>
   
      </div>
@@ -62,19 +62,19 @@ class Testimonials extends Component{
             <p>"Wanted to provide our compliments to your staff and your handling of our equipment and shipping needs.  
                 Your staff has been very gentle and kind with everything they pick up.  We love their politeness, attentiveness 
                 and being an overall positive addition to our internal team.  You guys are amazing."</p>
-            <p>Federal Gov't Agency</p>
+            <p className='test-write'>Federal Gov't Agency</p>
          </div>
          <div className='testimonial'>
             <p>"I want to recognize your company for always coming through for us.  Your team consistently goes above and beyond.  
                 Our staff consistently comment on how professional your staff are always and how they deliver our critical documents 
                 on-time and every time."</p>
-            <p>Major Law Firm</p>
+            <p className='test-write'>Major Law Firm</p>
          </div>
          <div className='testimonial'>
             <p>"Thanks for being such a significant part of our company.  Your partnership allows us to focus on our core business.  
                 We appreciate your investment in the tools you and your drivers utilize and the real-time dashboards we can access to 
                 view status of our deliveries."</p>
-            <p>Pharmacy Services Firm</p>
+            <p className='test-write'>Pharmacy Services Firm</p>
          </div>
   
      </div>

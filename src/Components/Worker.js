@@ -22,7 +22,8 @@ class Worker extends Component{
                 <p className='pitch-text'>Join our growing team of qualified drivers working for a well-known and established company with over 35 years 
                 of experience offering flexible schedules with access to state-of-the-art technology for all dispatch and package delivery capabilities utilizing mobile devices.</p>
                 {/* <p className='pitch-desc'> Some benefits in working for us</p> */}
-                <p className='pitch-text'>For more information, please contact 800-222-4959 and sales@transtimeexpress.com</p>
+                <p className='pitch-text'>For more information, please contact 800-222-4959 </p>
+                <button className='email-button' onClick={() => window.location = 'mailto:Sales@Transtimeexpress.com'}><p className='email-hover'>Sales@Transtimeexpress.com</p></button>
             </div>
         </section>
         

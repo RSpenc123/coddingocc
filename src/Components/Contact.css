@@ -16,6 +16,20 @@
     /* height: auto; */
 }
 
+.email-button{
+    text-decoration: none;
+    background-color: transparent;
+    border-style: none;
+    font-size: 30px;
+}
+.email-button:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border-style: none;
+    font-size: 30px;
+    color: blue;
+}
+
 .contact-icons{
 height: 40px;
 margin-right: 20px;
@@ -26,12 +40,27 @@ margin-right: 20px;
     margin-right: 10px;
     margin-top: 20px;
 }
+.contact-icons3{
+    height: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
+
+.phone1{
+    display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+margin-right: 20px;
+margin-top: 5px;
+/* margin-bottom: 50px; */
+}
 .phone{
     display: flex;
     font-size: 30px;
     margin-left: 20px;
 margin-right: 20px;
+/* margin-top: 5px; */
 /* margin-bottom: 50px; */
 }
 

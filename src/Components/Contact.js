@@ -17,14 +17,14 @@ class Contact extends Component{
             <div className='contact-header'> Contact Us</div>
         </section>
         <section className='contact-services'>
-            <div className='phone'>
+            <div className='phone1'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
                 (800) 222-4959 </div>
                 <div className='phone'>
                 <img className="contact-icons2" src="http://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png"/>
-                <p>Sales@Transtimeexpress.com</p> </div>
+                <button className='email-button' onClick={() => window.location = 'mailto:Sales@Transtimeexpress.com'}>Sales@Transtimeexpress.com</button> </div>
                 <div className='phone'>
-                <img className="contact-icons2" src="https://media.istockphoto.com/vectors/printer-icon-modern-thin-line-design-vector-line-icon-vector-id1128788131?k=20&m=1128788131&s=612x612&w=0&h=LZQWiL0uxjH1l0FVlCe4DlhAaHeuqifCgkAXzsx_AYE="/>
+                <img className="contact-icons3" src="https://i.imgur.com/TIxbnHw.png"/>
                 <p>877-525-5206</p> </div>
                 {/* <div className='phone'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
@@ -36,6 +36,7 @@ class Contact extends Component{
                 src="https://www.freeiconspng.com/thumbs/facebook-logo-png/photos-facebook-logo-png-transparent-background-13.png"/></a>
                
         </section>
+        {/* <button onClick={() => window.location = 'mailto:Sales@Transtimeexpress.com'}>Contact Me</button> */}
         <section className='offices'>
             <div className='office-box'> 
             <p className='location'>Rockville, MD</p>
