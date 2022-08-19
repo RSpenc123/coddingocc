@@ -40,7 +40,7 @@ render(){
 
 
 
-<section className='main-section'>
+<section className='main-section1'>
 <div className='call'>
   {/* <b className='cTA'>Call to action</b> */}
   <p className='home-number'>(800) 222-4959</p>
@@ -48,8 +48,8 @@ render(){
   {/* <button className='cTA-button'> <b>Button</b></button> */}
   
 </div>
-<div className='curve'></div>
-<div className='box'></div>
+
+
 
 </section>
 

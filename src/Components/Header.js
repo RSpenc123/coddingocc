@@ -37,7 +37,7 @@ function Header() {
            </li>
            );
        })}
-            <a className='trans-sign' target="_blank" href="https://www.transtimeexpress.com/account/">Sign-Up</a>
+            <a className='trans-sign' target="_blank" href="https://www.transtimeexpress.com/account/"><p>Sign-Up</p></a>
                 <div className='trans-log'>
                     <img className="profile" src='https://i.imgur.com/mugWDO5.png'/>
          

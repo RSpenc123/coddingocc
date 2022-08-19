@@ -22,6 +22,23 @@ class Cutstomers extends Component{
 
         <div className='customer-header'> 
         <p className='cust-text'>Meet the happy clients that trust Trans Time Express</p></div>
+
+        <section className='meet-header'>
+           <div className='contact-background'> </div>
+           <img className='about-img' src="https://i.imgur.com/mdNWrgX.jpg"/>
+           <p className="contact-text">Contact Us </p>
+           {/* <div className='about-img' >        </div> */}
+           
+           
+           
+           </section>
+
+
+
+
+
+
+
         {/* <section>
             <div>
 <img className="customer-logo" src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/08-CLN.jpg"/>

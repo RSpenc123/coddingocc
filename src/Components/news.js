@@ -24,32 +24,32 @@ class News extends Component{
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Wellspan Client Win</p>
-           <button className='news-button'>link here</button>
+           <button className='news-button'>Read More</button>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Expanded Capability in our new warehouse in Savage </p>
-           <button className='news-button'>link here</button>
+           <button className='news-button'>Read More</button>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Children Hospital</p>
-           <button className='news-button'>link here</button>
+           <button className='news-button'>Read More</button>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Wellspan Client Win</p>
-           <button className='news-button'>link here</button>
+           <button className='news-button'>Read More</button>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Expanded Capability in our new warehouse in Savage </p>
-           <button className='news-button'>link here</button>
+           <button className='news-button'>Read More</button>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Children Hospital</p>
-           <button className='news-button'>link here</button>
+           <button className='news-button'>Read More</button>
        </div>
    </section>
 

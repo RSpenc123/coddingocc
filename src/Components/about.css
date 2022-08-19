@@ -1,3 +1,56 @@
+
+.main-section{
+      
+     /* background-repeat: no-repeat; */
+        height: 590px;
+        /* width: 500px; */
+      background-size: cover;
+      background-position: center;
+      display: block;
+      width: 1440px;
+      position: relative;
+    }
+    
+.meet-background{
+    background-image: url("https://i.imgur.com/o1M1fBU.jpg"); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+
+.meet-top{
+    display: block;
+
+}
+.about-img{
+   
+    /* float: top;
+    top: 500px; */
+    background-image: url("https://i.imgur.com/o1M1fBU.jpg") ;
+    background-repeat: none;
+/* margin-bottom: 500px; */
+/* margin-top: -350px; */
+    width: 600px;
+    filter: blur(0px);
+   
+}
+
+.meet-text{
+    margin-top: -300px;
+    filter: blur(0px);
+}
+
+
+
+
+
+
 .sign-in-stuff{
     width: 500px;
     background-color: red;
@@ -21,15 +74,17 @@
     max-width: 100%;
     background-size: cover;
     object-position: 50% 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     font-size: 100px;
     color: white;
     text-shadow: .1px .1px .1px black, 0 0 0px black, 0 0 1px black;
     /* width: auto\9; */
-
+    margin-top: 0px;
+    margin-bottom: 20px;
     /* height: auto; */
+    filter: blur(0px);
 }
 
 
@@ -37,11 +92,13 @@
 .position{
     font-size: 10px;
     color: grey;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 .name{
     font-size: 16px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 33px;
 }
 

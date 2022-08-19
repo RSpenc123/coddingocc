@@ -13,23 +13,39 @@ class Contact extends Component{
         <body className='body'>
           
 
-        <section>
+        {/* <section>
             <div className='contact-header'> Contact Us</div>
-        </section>
+        </section> */}
+        <section className='meet-header'>
+           <div className='contact-background'> </div>
+           <img className='about-img' src="https://i.imgur.com/mdNWrgX.jpg"/>
+           <p className="contact-text">Contact Us </p>
+           {/* <div className='about-img' >        </div> */}
+           
+           
+           
+           </section>
+
+
+
+
+
+
+
         <section className='contact-services'>
             <div className='phone1'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
                 (800) 222-4959 </div>
                 <div className='phone'>
-                <img className="contact-icons2" src="http://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png"/>
+                <img className="contact-icons2" src="https://i.imgur.com/h797BtJ.png"/>
                 <button className='email-button' onClick={() => window.location = 'mailto:Sales@Transtimeexpress.com'}>Sales@Transtimeexpress.com</button> </div>
                 <div className='phone'>
                 <img className="contact-icons3" src="https://i.imgur.com/TIxbnHw.png"/>
-                <p>877-525-5206</p> </div>
+                <p className='fax'>877-525-5206</p> </div>
                 {/* <div className='phone'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
                Hours here </div> */}
-                <a  target="_blank" href="https://www.linkedin.com/company/trans-time-express"> <img className='contact-icons' 
+                <a  target="_blank" href="https://www.linkedin.com/company/trans-time-express"> <img className='contact-icons5' 
                 src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/linkedin-logo-3.png"/></a>
                
                 <a  target="_blank" href="https://www.facebook.com/Trans-Time-Express-236099153618807/"> <img className='contact-icons' 

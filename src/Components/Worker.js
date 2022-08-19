@@ -10,7 +10,7 @@ import {Link, withRouter} from "react-router-dom"
 class Worker extends Component{
     render(){
         return(
-        <body className='body'>
+        <body >
             <div>
            <p className='work-header'>Join The Team</p>
            </div>

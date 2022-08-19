@@ -13,9 +13,15 @@ class About extends Component{
         <body className='body'>
 
 
-       <div>
-           <p className='meet-header'>Meet the Tran Time Express Team</p>
-           </div>
+       <section className='meet-header'>
+           <div className='meet-background'> </div>
+           <img className='about-img' src="https://i.imgur.com/o1M1fBU.jpg"/>
+           <p className="meet-text">Meet the Trans Time Express Team  </p>
+           {/* <div className='about-img' >        </div> */}
+           
+           
+           
+           </section>
 
  <section className='trans-people'>
      <div >
