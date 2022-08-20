@@ -20,7 +20,7 @@ class Contact extends Component{
            <div className='contact-background'> </div>
            <img className='about-img' src="https://i.imgur.com/mdNWrgX.jpg"/>
            <p className="contact-text">Contact Us </p>
-           {/* <div className='about-img' >        </div> */}
+      
            
            
            

@@ -49,8 +49,8 @@
    filter: blur(8px);
    z-index: -1;
 }
-.contact-text{
-    margin-top: -250px;
+.about-text{
+    margin-top: -300px;
     filter: blur(0px);
 }
 

@@ -60,7 +60,7 @@ class Services extends Component{
 <div className='service-boxes'>
    <img className="service-icon" src="https://toppng.com/uploads/preview/email-icon-transparent-background-11549825133qbltljgp1w.png"/>
     <p className='service-name'>Warehousing/Distribution/Logistics Mgt</p>
-    <p className='service-description'> description, here is some filler to fill in the </p>
+    <p className='service-description'> Whether you need storage for weeks or months, we are ready to store your inventory and offer distribution and final mile services anywhere in the DMV area. </p>
 </div>
 
 

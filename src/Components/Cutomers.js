@@ -26,7 +26,7 @@ class Cutstomers extends Component{
         <section className='meet-header'>
            <div className='customer-background'> </div>
            <img className='about-img' src="https://i.imgur.com/MO7Vcrw.jpg"/>
-           <p className="contact-text">Meet the happy clients that trust Trans Time Express </p>
+           <p className="about-text">Meet the happy clients that trust Trans Time Express </p>
            {/* <div className='about-img' >        </div> */}
            
            
