@@ -25,6 +25,12 @@
 }
 .service-submenu .nav-item{
     height: 45px;
+    z-index: 1000;
+    position: relative;
+    background-color: lightgray;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .potato{
