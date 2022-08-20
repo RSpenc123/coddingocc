@@ -116,7 +116,7 @@ background-image: url("https://i.imgur.com/umsxpBb.jpg");
 
       height: 540px;
      
-    width: 100%;
+    width: 1440px;
   }
 
 
@@ -233,7 +233,7 @@ float: right;
 .item-right{
   background-color: rgb(242, 241, 241);
   /* height: 550px; */
-margin-bottom: 50px;
+padding-bottom: 50px;
 
 
 
