@@ -14,6 +14,8 @@ import News from "./Components/news"
 import Testimonials from "./Components/Testimonials"
 import Dropdown from "./Components/dropdown"
 import Header from "./Components/Header"
+import News1 from "./Components/News-article/news1"
+import News2 from "./Components/News-article/news2"
 
 export default (
     <Switch>
@@ -30,6 +32,8 @@ export default (
         <Route path = "/Testimonials" component={Testimonials}/>
         <Route path = "/Dropdown" component={Dropdown}/>
         <Route path = "/Header" component={Header}/>
+        <Route path = "/News1" component={News1}/>
+        <Route path = "/News2" component={News2}/>
 
         
     </Switch>

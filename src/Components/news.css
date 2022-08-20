@@ -20,6 +20,48 @@
 
 }
 
+.main-section{
+      
+    /* background-repeat: no-repeat; */
+       height: 590px;
+       /* width: 500px; */
+     background-size: cover;
+     background-position: center;
+     display: block;
+     width: 1440px;
+     position: relative;
+   }
+   
+.news-background{
+   background-image: url("https://i.imgur.com/PvWX11v.jpg"); 
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: red;
+   filter: blur(8px);
+   z-index: -1;
+}
+.contact-text{
+    margin-top: -250px;
+    filter: blur(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .news-image{

@@ -15,23 +15,44 @@ class News extends Component{
         return(
         <body className='body'>
             
-            <div>
+            {/* <div>
            <p className='news-header'>News</p>
-           </div>
+           </div> */}
+           
+           
+           <section className='meet-header'>
+           <div className='news-background'> </div>
+           <img className='about-img' src="https://i.imgur.com/tfAg0Qp.jpg"/>
+           <p className="contact-text">News </p>
+           {/* <div className='about-img' >        </div> */}
+           
+           
+           
+           </section>
+
+
+
+
+
+
+
+
+
+
 
 
    <section className='news-section'>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
-           <p className='news-text'>Wellspan Client Win</p>
-           <button className='news-button'>Read More</button>
+           <p className='news-text'>New Dispatch Software</p>
+           <Link to="/news2"> <button className='news-button'>Read More</button></Link>
        </div>
        <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Expanded Capability in our new warehouse in Savage </p>
-           <button className='news-button'>Read More</button>
+          <Link to="/news1"> <button className='news-button'>Read More</button></Link>
        </div>
-       <div className='news-box'>
+       {/* <div className='news-box'>
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Children Hospital</p>
            <button className='news-button'>Read More</button>
@@ -50,7 +71,7 @@ class News extends Component{
            <img className='news-image' src="https://www.pinclipart.com/picdir/big/124-1248076_cutting-edge-articles-vector-graphics-clipart.png"/>
            <p className='news-text'>Children Hospital</p>
            <button className='news-button'>Read More</button>
-       </div>
+       </div> */}
    </section>
 
 

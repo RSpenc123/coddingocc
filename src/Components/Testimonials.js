@@ -21,10 +21,36 @@ class Testimonials extends Component{
 
 
  
-
+{/* 
 <div className='testi-header'>
     <p>Testimonials</p>
-</div>
+</div> */}
+
+<section className='meet-header'>
+           <div className='testi-background'> </div>
+           <img className='about-img' src="https://i.imgur.com/u7TsBzW.jpg"/>
+           <p className="contact-text">Testimonials </p>
+           {/* <div className='about-img' >        </div> */}
+           
+           
+           
+           </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <section>
      <div className='testimonial-section'>
          <div className='testimonial'>

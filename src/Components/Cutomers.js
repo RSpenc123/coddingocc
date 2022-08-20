@@ -20,13 +20,13 @@ class Cutstomers extends Component{
         return(
         <body className='body'>
 
-        <div className='customer-header'> 
-        <p className='cust-text'>Meet the happy clients that trust Trans Time Express</p></div>
+        {/* <div className='customer-header'> 
+        <p className='cust-text'>Meet the happy clients that trust Trans Time Express</p></div> */}
 
         <section className='meet-header'>
-           <div className='contact-background'> </div>
-           <img className='about-img' src="https://i.imgur.com/mdNWrgX.jpg"/>
-           <p className="contact-text">Contact Us </p>
+           <div className='customer-background'> </div>
+           <img className='about-img' src="https://i.imgur.com/MO7Vcrw.jpg"/>
+           <p className="contact-text">Meet the happy clients that trust Trans Time Express </p>
            {/* <div className='about-img' >        </div> */}
            
            

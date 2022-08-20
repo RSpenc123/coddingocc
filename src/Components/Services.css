@@ -19,6 +19,50 @@
     /* height: auto; */
 }
 
+.main-section{
+      
+    /* background-repeat: no-repeat; */
+       height: 590px;
+       /* width: 500px; */
+     background-size: cover;
+     background-position: center;
+     display: block;
+     width: 1440px;
+     position: relative;
+   }
+   
+.services-background{
+   background-image: url("https://i.imgur.com/uNTpm3m.jpg"); 
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: red;
+   filter: blur(8px);
+   z-index: -1;
+}
+.contact-text{
+    margin-top: -250px;
+    filter: blur(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .service-call{
     font-size: 40px;
     font-weight: bold;
@@ -87,7 +131,7 @@
     border-radius: 2em;
     background-color: white;
     /* background-color: rgb(207, 207, 207); */
-    height: 250px;
+    height: 280px;
     /* box-shadow: -10px -10px 10px rgb(209, 209, 209) inset; */
     /* box-shadow: 0 0 10px 3px rgb(209, 209, 209) inset; */
 }
@@ -103,10 +147,16 @@
     border-radius: 2em;
     /* border-style: solid; */
     background-color: rgb(207, 207, 207);
-    height: 250px;
+    height: 280px;
     /* box-shadow: 0 0 10px 3px rgb(131, 131, 131) inset; */
 
     
+}
+.service-name1{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .service-name{
@@ -116,11 +166,12 @@
 .service-description{
     width: 300px;
     font-size: 15x;
-    height:70px
+    height:70px;
+    margin-left: 10px;
 }
 .service-description2{
     width: 300px;
     font-size: 15x;
-    margin-left: 15px;
+    margin-left: 10px;
     height:70px
 }

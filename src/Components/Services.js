@@ -14,12 +14,31 @@ class Services extends Component{
        
 
 
-<section className='service-header'>
+{/* <section className='service-header'>
     <div>
         <p className='service-call'> SERVICES</p>
 
     </div>
-</section>
+</section> */}
+
+<section className='meet-header'>
+           <div className='services-background'> </div>
+           <img className='about-img' src="https://i.imgur.com/fEVq8xt.jpg"/>
+           <p className="contact-text">Services </p>
+           {/* <div className='about-img' >        </div> */}
+           
+           
+           
+           </section>
+
+
+
+
+
+
+
+
+
 
 <section className='service-items'>
 <div className='service-boxes'>
@@ -47,7 +66,7 @@ class Services extends Component{
 
 <div className='service-boxes'>
    <img className="service-icon2" src="https://i.imgur.com/NJec4Bt.png"/>
-    <p className='service-name'>VAN & TRUCK DELIVERIES</p>
+    <p className='service-name1'>VAN & TRUCK DELIVERIES</p>
      <p className='service-description'> Our van and truck services can get your boxes, large or bulky items to their destination in a matter of hours. Unlike the larger shippers and movers, we can pick up and deliver your items anywhere at anytime. </p>
 </div>
 <div className='service-boxes'>
@@ -102,7 +121,7 @@ class Services extends Component{
 </div>
 <div className='service-boxes'>
    <img className="service-icon4" src="https://i.imgur.com/2nA6zZJ.png"/>
-    <p className='service-name'>CAPITOL HILL DELIVERY</p>
+    <p className='service-name1'>CAPITOL HILL DELIVERY</p>
     <p className='service-description'> Our couriers are well trained in Capitol Hill's special requirements and procedures for Capitol Hill deliveries. We also specialize in coordinating and delivering large distributions to congressional office buildings.</p>
 </div>
 <div className='service-boxes'>
