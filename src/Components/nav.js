@@ -40,7 +40,7 @@ render(){
 
 
 
-<section className='main-section1'>
+<section className='main-section'>
 <div className='call'>
   {/* <b className='cTA'>Call to action</b> */}
   <p className='home-number'>(800) 222-4959</p>

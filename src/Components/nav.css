@@ -102,19 +102,19 @@ padding-left: 00px;
 
 .main-section{
 background-image: url("https://i.imgur.com/umsxpBb.jpg");   
- /* background-repeat: no-repeat; */
+ background-repeat: no-repeat;
     height: 590px;
     /* width: 500px; */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* display: block; */
-  width: 700px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  /* width: 700px; */
 }
 .main-section1{
 
 background-image: url("https://i.imgur.com/umsxpBb.jpg");   
  background-size: cover;
-      height: 540px;
+      /* height: 540px; */
      
     width: 100%;
   }
@@ -494,7 +494,8 @@ text-align: left;
           /* background-size: cover; */
           /* background-position: center; */
           /* display: block; */
-          width: 700px;
+          /* width: 700px; */
+          background-size: 100%;
         }
         .main-section1{
         
