@@ -16,3 +16,13 @@ height: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
 }
+
+.article-img{
+    width: 500px;
+  
+}
+
+.article-underline{
+    width: 100%;
+    text-decoration: underline;
+}

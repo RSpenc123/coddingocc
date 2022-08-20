@@ -113,10 +113,10 @@ background-image: url("https://i.imgur.com/umsxpBb.jpg");
 .main-section1{
 
 background-image: url("https://i.imgur.com/umsxpBb.jpg");   
-
+ background-size: cover;
       height: 540px;
      
-    width: 1440px;
+    width: 100%;
   }
 
 

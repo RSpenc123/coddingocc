@@ -33,8 +33,8 @@ class News2 extends Component{
     <b>Trans Time Express deploys its latest version of Courier and Dispatch Software to further enhance its delivery model for its clients </b>
 <p>(Rockville, MD) August 12, 2022 – Trans Time Express continues to enhance its capabilities through the deployment of the latest version of Courier and Dispatch Software across all of its locations.  The new technology platform will enable Trans Time Express to more accurately track all of its deliveries through tight integration across its driver network.  The new capability also provides optimized delivery routes and schedule daily runs and track drivers in real-time via iOS or Android devices.  The capability is also extended to clients who can more accurately track their packages and get the latest status across their courier package delivery cycle.  
 </p>
-<img src=""/>
-<u>About Trans Time Express</u>
+<img className='article-img' src="https://i.imgur.com/T9EjI1i.png"/>
+<p className='article-underline'>About Trans Time Express</p>
             <p>Trans Time Express is a proven courier company with over 35 years of experience delivering quality and timely services with 24/7/365 coverage with over 300 qualified drivers utilizing state-of-the-art technology providing near real-time driver and package tracking with mobile capability with live agents to meet your current and future needs.</p>
             <p>For more information, visit  
             <Link to={'/'}>www.transtimeexpress.com </Link>
