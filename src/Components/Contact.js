@@ -35,13 +35,13 @@ class Contact extends Component{
         <section className='contact-services'>
             <div className='phone1'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
-                (800) 222-4959 </div>
+               <b> (800) 222-4959</b> </div>
                 <div className='phone'>
                 <img className="contact-icons2" src="https://i.imgur.com/h797BtJ.png"/>
-                <button className='email-button' onClick={() => window.location = 'mailto:Sales@Transtimeexpress.com'}>Sales@Transtimeexpress.com</button> </div>
+                <button className='email-button' onClick={() => window.location = 'mailto:Sales@Transtimeexpress.com'}><b>Sales@Transtimeexpress.com</b></button> </div>
                 <div className='phone'>
                 <img className="contact-icons3" src="https://i.imgur.com/TIxbnHw.png"/>
-                <p className='fax'>877-525-5206</p> </div>
+                <p className='fax'><b>877-525-5206</b></p> </div>
                 {/* <div className='phone'>
                 <img className="contact-icons" src="https://www.freeiconspng.com/thumbs/phone-icon/office-phone-icon--25.png"/>
                Hours here </div> */}

@@ -4,6 +4,8 @@ import axios from 'axios'
 import './nav.css'
 import './news.css'
 import {Link, withRouter} from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -59,8 +61,11 @@ render(){
 <h className='service-header-text'>OUR SERVICES</h></div>
 
 <section className='item-right'>
-<div>
-  <img className = "imageright" src="https://veteransdistribution.com/wp-content/uploads/2020/07/pre-delivery-inspections.jpeg"/>
+<div className='home-section'>
+  {/* <img className = "imageright" src="https://veteransdistribution.com/wp-content/uploads/2020/07/pre-delivery-inspections.jpeg"/> */}
+  <div className='imageright' >
+  <iframe className='video' src="https://www.youtube.com/embed/tbXOb3eJyB8" title="YouTube video" allowfullscreen></iframe>
+</div>
   <div className='textright'> 
   <p className='service-bold'>What we do for you</p>
   

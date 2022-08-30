@@ -1,0 +1,110 @@
+.reg-head{
+    height: 200px;
+    background-color: rgb(40, 40, 40);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.reg-header-text{
+    font-size: 80px;
+    background-color: rgb(174, 174, 174);
+    height: 100px;
+    width: 600px;
+    margin-left: 80px;
+}
+
+.form-text{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 120px;
+}
+
+
+.register-mid{
+    height: 40px;
+    font-size: 20px;
+    width: 40%;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.register-full{
+    height: 40px;
+    font-size: 20px;
+    width: 85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.register-small{
+    height: 40px;
+    font-size: 20px;
+    width: 17%;
+    margin-right: 37px;
+    margin-left: 37px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.reg-text{
+    text-align: left;
+    margin-left: 103px;
+    font-weight: bold;
+}
+.reg-head-text{
+    text-align: left;
+    margin-left: 103px;
+    font-size: 20px;
+}
+.register60{
+    height: 40px;
+    font-size: 20px;
+    width: 50%;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.register30{
+    height: 40px;
+    font-size: 20px;
+    width: 30%;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.reg-button{
+    width: 85%;
+    background-color: rgb(255, 186, 58);
+    height: 40px;
+    border-color: none;
+    border-style: none;
+    color: white;
+    margin-bottom: 50px;
+}
+.reg-button:hover{
+    background-color: rgb(14, 14, 14);
+}
+
+.reg-text2{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    /* width: 30px; */
+    margin-right: 442px;
+    margin-left: 72px;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    font-weight: bold;
+}
+
+
+.reg-text-box{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 32px;
+}

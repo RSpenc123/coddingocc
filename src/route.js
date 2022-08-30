@@ -16,6 +16,8 @@ import Dropdown from "./Components/dropdown"
 import Header from "./Components/Header"
 import News1 from "./Components/News-article/news1"
 import News2 from "./Components/News-article/news2"
+import Register from "./Components/Register2"
+import Video from './Components/video';
 
 export default (
     <Switch>
@@ -34,6 +36,9 @@ export default (
         <Route path = "/Header" component={Header}/>
         <Route path = "/News1" component={News1}/>
         <Route path = "/News2" component={News2}/>
+        <Route path = "/Register" component={Register}/>
+        <Route path = "/Video" component={Video}/>
+        
 
         
     </Switch>

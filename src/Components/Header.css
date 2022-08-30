@@ -27,13 +27,20 @@ text-align: center;
 
 .nav-item a {
     text-decoration: none;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
     color: black;
     /* font-size: 20px; */
     font-size: 20px;
+    font-weight: bold;
        
 }
+.login-text{
+    width: 40px;
+    flex-wrap: nowrap;
+    margin: 0px;
+}
+
 
 .theburger{
     width: 0px;
@@ -45,17 +52,27 @@ text-align: center;
 
 .nav-item a:hover  {
     text-decoration: none;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
     color: #ebd534;
     font-size: 20px;
   
 }
 .login{
-    width: 55px;
+    width: 60px;
     margin-right: 0px;
     margin-left: 0px;
+    font-weight: bold;
 }
+
+.login:hover{
+
+    margin-left: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ebd534;
+  }
+
 .trans-sign{
     width: 100px !important; 
     margin-left: 0px;

@@ -58,13 +58,7 @@
     text-decoration: none;
     color: black;
 }
-.login:hover{
-  margin-top: 30px;
-  margin-left: 10px;
-  font-size: 20px;
-  text-decoration: none;
-  color: #ebd534;
-}
+
 
 .trans-log{
     display: flex;
@@ -112,7 +106,7 @@ background-image: url("https://i.imgur.com/umsxpBb.jpg");
 }
 .main-section1{
 
-background-image: url("https://i.imgur.com/umsxpBb.jpg");   
+background-image: url("https://i.imgur.com/gYpVYrb.jpg");   
  background-size: cover;
       height: 540px;
      
@@ -145,7 +139,7 @@ background-image: url("https://i.imgur.com/umsxpBb.jpg");
   width: 600px;
   text-align: left;
   margin-left: 40px;
-  color: white;
+  color: black;
   font-weight: bold;
   /* position: absolute; */
   /* z-index: 3; */
@@ -241,18 +235,25 @@ padding-bottom: 50px;
 
 
 .imageright{
-  width: 650px;
+  width: 700px;
+  height: 500px;
   /* margin-bottom: 70px; */
   /* height: 100px; */
   /* margin-right: 100px; */
   display: left;
   margin-top: 30px;
-  height: 500px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+.home-section{
+  display: flex;
 }
 
 .textright{
   width: 650px;
-  float: right;
+  /* float: right; */
   /* margin-top: 60px; */
   margin-right: 100px;
   }
