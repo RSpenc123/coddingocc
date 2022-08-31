@@ -21,7 +21,7 @@ text-align: center;
 .nav-item{
     display: flex;
     align-items: center;
-   height: 90px;
+   height: 100px;
    /* width: 9%; */
 }
 

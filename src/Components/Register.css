@@ -18,7 +18,7 @@
 .form-text{
     font-size: 20px;
     text-align: left;
-    margin-left: 120px;
+    margin-left: 7.6%;
 }
 
 
@@ -50,12 +50,12 @@
 
 .reg-text{
     text-align: left;
-    margin-left: 103px;
+    margin-left: 7.6%;
     font-weight: bold;
 }
 .reg-head-text{
     text-align: left;
-    margin-left: 103px;
+    margin-left: 7.6%;
     font-size: 20px;
 }
 .register60{
@@ -94,8 +94,8 @@
     margin: 0px;
     padding: 0px;
     /* width: 30px; */
-    margin-right: 442px;
-    margin-left: 72px;
+    margin-right: 30%;
+    margin-left: 5.7%;
     margin-top: 15px;
     /* margin-bottom: 15px; */
     font-weight: bold;

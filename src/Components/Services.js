@@ -118,13 +118,13 @@ class Services extends Component{
 
 <div className='service-boxes'>
    <img className="service-icon4" src="https://i.imgur.com/NOP1opU.png"/>
-    <p className='service-name'>FEDERAL GOVERNMENT COURIER
+    <p className='service-name1'>FEDERAL GOVERNMENT COURIER
 </p>
      <p className='service-description'>Our couriers are specialists in urgent, on-demand, same day package delivery for our federal government and commercial customers.</p>
 </div>
 <div className='service-boxes'>
    <img className="service-icon5" src="https://i.imgur.com/2nA6zZJ.png"/>
-    <p className='service-name1'>CAPITOL HILL DELIVERY</p>
+    <p className='service-name2'>CAPITOL HILL DELIVERY</p>
     <p className='service-description'> Our couriers are well trained in Capitol Hill's special requirements and procedures for Capitol Hill deliveries. We also specialize in coordinating and delivering large distributions to congressional office buildings.</p>
 </div>
 <div className='service-boxes'>
@@ -138,7 +138,6 @@ class Services extends Component{
     <p className='service-description'> Last mile delivery services in the DMV region and custom delivery schedules for your distribution needs. Fulfillment services for easy distribution.</p>
 </div>
 
-<img className = "service-image" src="https://veteransdistribution.com/wp-content/uploads/2020/07/pre-delivery-inspections.jpeg"/>
 
 
 
@@ -153,6 +152,7 @@ class Services extends Component{
     <p className='service-name'>AIR & GROUND DELIVERY</p>
     <p className='service-description'> Washington Express is available for pickups and/or deliveries 24 hours a day, 365 days a year. We offer time critical priority deliveries to anywhere in the U.S. and internationally. </p>
 </div>
+<img className = "service-image" src="https://veteransdistribution.com/wp-content/uploads/2020/07/pre-delivery-inspections.jpeg"/>
 
 
 </section>
