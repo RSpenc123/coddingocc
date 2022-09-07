@@ -57,8 +57,9 @@ class Register extends Component{
 <input className='register-mid' placeholder='Online User Name'></input>
 
 <input className='register-mid' placeholder='Online Password'></input>
-
+<Link to="/">
 <button className='reg-button'>Submit</button>
+</Link>
 
 
 </section>
