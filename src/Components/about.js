@@ -37,7 +37,7 @@ class About extends Component{
         
      </div>
      <div>
-         <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Bobby-Sharafeddin.jpg"/>
+         <img className='trans-image2' src="https://i.imgur.com/htLrpUZ.jpg"/>
          <p className='position'>VP_OPERATIONS MANAGER</p>
          <p className='name'>BOBBY SHARAFEDDIN</p>
         
@@ -77,9 +77,9 @@ class About extends Component{
  </section>
  <section className='trans-people'>
      <div >
-         <img className='trans-image' src="https://www.transtimeexpress.com/wp-content/uploads/2020/05/Naz-Zori.jpg"/>
-         <p className='position'>ACCOUNT EXECUTIVE</p>
-         <p className='name'>NAZ ZORI</p>
+         <img className='trans-image2' src="https://i.imgur.com/D04rtmP.jpg"/>
+         <p className='position'>PA REGIONAL MANAGER</p>
+         <p className='name'>MAURICE YARBROUGH</p>
         
      </div>
      <div>

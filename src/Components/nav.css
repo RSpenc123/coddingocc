@@ -106,7 +106,7 @@ background-image: url("https://i.imgur.com/umsxpBb.jpg");
 }
 .main-section1{
 
-background-image: url("https://i.imgur.com/gYpVYrb.jpg");   
+background-image: url("https://i.imgur.com/qrtqUZE.jpg");   
  background-size: cover;
       height: 550px;
      
@@ -134,9 +134,9 @@ background-image: url("https://i.imgur.com/gYpVYrb.jpg");
   margin-left: -800px;
 }
 .cTA-info{
-  font-size: 25px;
+  font-size: 23px;
   /* background-color: orange; */
-  width: 600px;
+  width: 570px;
   text-align: left;
   margin-left: 40px;
   color: black;
@@ -171,7 +171,7 @@ text-shadow: .1px .1px .1px black, 0 0 0px black, 0 0 1px black;
   /* z-index: 3; */
   /* top: 200px; */
   /* left: 140px; */
-  margin-top: 100px;
+  /* margin-top: 80px; */
   margin-left: 10%;
 }
 .cTA-button2{
