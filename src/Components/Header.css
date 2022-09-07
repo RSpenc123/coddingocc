@@ -1,3 +1,20 @@
+.trans-logo{
+    height: 90px;
+    /* padding-left: 50px; */
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
 .transport-header{
     width: 90%;
 }
@@ -52,10 +69,10 @@ text-align: center;
 
 .nav-item a:hover  {
     text-decoration: none;
-    margin-right: 15px;
-    margin-left: 15px;
+    /* margin-right: 15px;
+    margin-left: 15px; */
     color: #ebd534;
-    font-size: 20px;
+    /* font-size: 20px; */
   
 }
 .login{
@@ -214,3 +231,73 @@ text-align: center;
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1401px){
+    .nav-item a {
+        margin-left: 25px;
+    }
+    .trans-sign{
+        /* margin-left: 5px; */
+        margin-right: 35px;
+    }
+    .login{
+       
+    }
+  }
+  @media(min-width: 1501px){
+    .nav-item a {
+        margin-left: 35px;
+    }
+    .trans-sign{
+        /* margin-left: 35px; */
+        margin-right: 35px;
+    }
+  }
+  @media(min-width: 1601px){
+    .nav-item a {
+        margin-left: 45px;
+    }
+  }
+  @media(min-width: 1701px){
+    .nav-item a {
+        margin-left: 60px;
+    }
+  }
+  @media(min-width: 1801px){
+    .nav-item a {
+        margin-left: 60px;
+    }
+    .trans-sign{
+        margin-left: 60px;
+        /* margin-right: 160px; */
+    }
+  }
+  @media(min-width: 1901px){
+    .nav-item a {
+        margin-left: 70px;
+       
+    }
+    .trans-sign{
+        margin-left: 70px;
+        /* margin-right: 160px; */
+    }
+  }
+  @media(min-width: 2001px){
+    .nav-item a {
+        margin-left: 80px;
+       
+    }
+    .trans-sign{
+        margin-left: 80px;
+        /* margin-right: 160px; */
+    }
+  }

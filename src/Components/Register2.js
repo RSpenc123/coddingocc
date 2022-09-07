@@ -39,7 +39,7 @@ class Register extends Component{
 
 <p className='reg-head-text'>Address</p>
 <div>
-<input className='register-small' placeholder='Your Adress'></input>
+<input className='register-small' placeholder='Your Address'></input>
 <input className='register-small' placeholder='City'></input>
 <input className='register-small' placeholder='State'></input>
 <input className='register-small' placeholder='Zipcode'></input>

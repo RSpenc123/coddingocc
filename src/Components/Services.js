@@ -83,7 +83,7 @@ class Services extends Component{
 </div>
 <div className='service-boxes'>
    <img className="service-icon3" src="https://i.imgur.com/aj4Erbr.png"/>
-    <p className='service-name'>RESEARCH & RETRIEVAL</p>
+    <p className='service-name3'>RESEARCH & RETRIEVAL</p>
     <p className='service-description'> Our legal team will research, locate and retrieve your important documents from any local, state and Federal agency. </p>
 </div>
 <div className='service-boxes'>
