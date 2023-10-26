@@ -1,63 +1,32 @@
-import React, {Component} from 'react'
-import axios from 'axios'
-import {Link} from 'react-router-dom'
-import {connect} from 'react-redux'
-import {updateUser} from '../dux/userReducer'
-class register extends Component{
-    constructor(){
-        super()
-        this.state ={
-            username: "",
-            password: ""
-        }
-    }
+import React from 'react';
+import emailjs from "emailjs.com";
+// import emailjs from '@emailjs/browser';
 
-    handleInput = (e) => {
-        this.setState({
-            [e.target.name]: e.target.value
+export default function Register() {
+    function sendEmail(e) {
+        e.preventDefault();
 
-        })
-    }
-    handleRegister = () => {
-        axios.post('/auth/register', {username: this.state.username,
-        password: this.state.password}).then(res => {
-            this.setState({
-                username: '',
-                password: ''
-            })
-            this.props.updateUser(res.data)
-            this.props.history.push('/Account')
-        })
-    }
+        emailjs.sendForm('service_nlcg4oq', 'template_4bdueel', e.target, 'TodtX9pFFUvwnQfDw')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
     
+return(
+    <div>
 
-    render(){
-        return(
-            <div className = 'register'>
-                <div className='xxx'>
-                <p>Username Here!</p>
-                <input
-                value = {this.state.username}
-                name = "username"
-                onChange = {(e) => this.handleInput(e)}/>
-                <p>Password Here!</p>
-                <input
-                value = {this.state.password}
-                name = "password"
-                onChange = {(e) => this.handleInput(e)}/> 
-             
-                <button onClick={this.handleRegister}>Register</button> 
-                </div>
-                
-                 </div>
-        )
-    }
-}
 
-const mapDispatchToProps = {
-    updateUser
+
+
+    </div>
+)
+
+
+
+
 }
-export default connect(null, mapDispatchToProps)(register)
 
 
 

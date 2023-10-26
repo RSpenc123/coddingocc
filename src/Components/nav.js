@@ -34,35 +34,38 @@ render(){
   const {isListOpen, headerTitle} = this.state;
   const {list} = this.props;
     return(
-<body className='body'>
+<body className='prkn'>
+
+<b className='prkn-text-1'>
+ PRK'N
+</b>
+<p className='prkn-text-2'> Coming soon!</p>
 
 
 
 
-
-
-
+{/* 
 <section className='main-section1'>
 <div className='call'>
-  {/* <b className='cTA'>Call to action</b> */}
+  
   <p className='home-number'>(800) 222-4959</p>
   <p className='cTA-info'>Proven courier company with over 35 years of experience delivering quality and timely services with 24/7/365 coverage with over 300 qualified drivers utilizing state-of-the-art technology providing near real-time driver and package tracking with mobile capability with live agents to meet your current and future needs.</p>
-  {/* <button className='cTA-button'> <b>Button</b></button> */}
+
   
 </div>
 
 
 
-</section>
+</section> */}
 
 
-
+{/* 
 <div className='services-header'>
-<h className='service-header-text'>OUR SERVICES</h></div>
+<h className='service-header-text'>OUR SERVICES</h></div> */}
 
-<section className='item-right'>
+{/* <section className='item-right'>
 <div className='home-section'>
-  {/* <img className = "imageright" src="https://veteransdistribution.com/wp-content/uploads/2020/07/pre-delivery-inspections.jpeg"/> */}
+  
   <div className='imageright' >
   <iframe className='video' src="https://www.youtube.com/embed/tbXOb3eJyB8" title="YouTube video" allowfullscreen></iframe>
 </div>
@@ -101,7 +104,7 @@ render(){
   </div>
 </div>
 
-</section>
+</section> */}
 {/* 
 <img className="driver-image"src="https://i.imgur.com/7epXEyQ.png"/> */}
 

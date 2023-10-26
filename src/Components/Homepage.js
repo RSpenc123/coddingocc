@@ -142,7 +142,7 @@ render(){
                    
                    
                     <div className="classes2"> <b className="courses-title">Courses</b>
-            {/* <p>Currently we are only providing the basic web development course, however we plan to add more courses in the future.</p>  */}
+            
             
             <div className="course-box2">
             <div className="courses">

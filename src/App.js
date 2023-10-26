@@ -9,12 +9,12 @@ import Footer from './Components/footer';
 function App() {
   return (
     <HashRouter>
-      <Header/>
+      {/* <Header/> */}
     <div className="App">
     {Route}
 
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </HashRouter>
   );
 }

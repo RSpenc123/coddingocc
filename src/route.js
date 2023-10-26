@@ -16,7 +16,7 @@ import Dropdown from "./Components/dropdown"
 import Header from "./Components/Header"
 import News1 from "./Components/News-article/news1"
 import News2 from "./Components/News-article/news2"
-import Register from "./Components/Register2"
+import Register from "./Components/Register3"
 import Video from './Components/video';
 
 export default (

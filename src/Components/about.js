@@ -37,8 +37,8 @@ class About extends Component{
         
      </div>
      <div>
-         <img className='trans-image2' src="https://i.imgur.com/htLrpUZ.jpg"/>
-         <p className='position'>VP_OPERATIONS MANAGER</p>
+         <img className='trans-image2' src="https://i.imgur.com/5JGYaNq.jpg"/>
+         <p className='position'>VP OPERATIONS MANAGER</p>
          <p className='name'>BOBBY SHARAFEDDIN</p>
         
      </div>

@@ -1,4 +1,22 @@
 
+.prkn{
+  background-image: linear-gradient(to right, rgb(78, 78, 217) , rgb(255, 200, 0));
+  height: 1300px;
+
+  
+}
+
+.prkn-text-1{
+  font-size: 150px;
+  color: white;
+  padding-top: 600px;
+}
+.prkn-text-2{
+  font-size: 150px;
+  color: white;
+}
+
+
 
 .transport-header{
     height: 100px;
